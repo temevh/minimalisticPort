@@ -10,7 +10,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        accentOrange: "#FF4D00",
+        accentOrange: "#D16002",
         discord: "#5662f6",
         linkedin: "#0077B5",
         graytext: "#949494",

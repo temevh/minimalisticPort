@@ -7,8 +7,8 @@ export default function Home() {
         <Picture />
         <div id="infodiv">
           <p className="text-2xl text-gray-400 font-bold">
-            <span className="text-white">Hey, I'm Teemu</span>. I'm a front-end
-            developer and a CS student.
+            <span className="text-white">Hey, I'm Teemu</span>. I'm a
+            "full-stack" developer and a CS student.
           </p>
           <Socials />
           <div></div>
@@ -22,6 +22,11 @@ export default function Home() {
           </span>
         </p>
         <TLDR />
+        <p className="text-graytext text-lg">
+          Make sure to check out the
+          <span className="text-blue-700"> about me </span> page to get to know
+          me more!
+        </p>
       </div>
     </div>
   );
