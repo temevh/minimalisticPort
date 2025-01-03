@@ -44,27 +44,34 @@ const Navbar = () => {
         <div className="hidden lg:flex space-x-4 text-white">
           <a
             href="/about"
-            className="hover:text-accentOrange text-graytext font-bold italic"
+            className="hover:text-accentOrange text-graytext font-bold"
           >
             About
           </a>
           <a
             href="/projects"
-            className="hover:text-accentOrange text-graytext font-bold italic"
+            className="hover:text-accentOrange text-graytext font-bold"
           >
             Projects
           </a>
+
           <a
             href="/contact"
-            className="hover:text-accentOrange text-graytext font-bold italic"
+            className="hover:text-accentOrange text-graytext font-bold"
           >
-            Contact
+            Features
+          </a>
+          <a
+            href="/skills"
+            className="hover:text-accentOrange text-graytext font-bold"
+          >
+            Skills
           </a>
           <a
             href="/contact"
-            className="hover:text-accentOrange text-graytext font-bold italic"
+            className="hover:text-accentOrange text-graytext font-bold"
           >
-            Features
+            Contact
           </a>
         </div>
       </div>
