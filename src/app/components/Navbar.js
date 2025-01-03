@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-background p-2 mb-12">
+    <nav className="bg-background p-2 mb-12 mt-10 w-full">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a
           href="/"
@@ -42,16 +42,28 @@ const Navbar = () => {
 
         {/* Desktop Links */}
         <div className="hidden lg:flex space-x-4 text-white">
-          <a href="/about" className="hover:text-accentOrange">
+          <a
+            href="/about"
+            className="hover:text-accentOrange text-graytext font-bold italic"
+          >
             About
           </a>
-          <a href="/projects" className="hover:text-accentOrange">
+          <a
+            href="/projects"
+            className="hover:text-accentOrange text-graytext font-bold italic"
+          >
             Projects
           </a>
-          <a href="/contact" className="hover:text-accentOrange">
+          <a
+            href="/contact"
+            className="hover:text-accentOrange text-graytext font-bold italic"
+          >
             Contact
           </a>
-          <a href="/contact" className="hover:text-accentOrange">
+          <a
+            href="/contact"
+            className="hover:text-accentOrange text-graytext font-bold italic"
+          >
             Features
           </a>
         </div>

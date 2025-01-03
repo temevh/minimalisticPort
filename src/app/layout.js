@@ -2,13 +2,13 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 //https://www.conordewey.com/
-//switch to roboto mono
+
 import { Noto_Sans_Mono } from "next/font/google";
 
 const notoSansMono = Noto_Sans_Mono({
   subsets: ["latin"],
-  weight: ["400", "700"], // Choose weights as needed
-  variable: "--font-noto-sans-mono", // Optional CSS variable
+  weight: ["400", "700"],
+  variable: "--font-noto-sans-mono",
 });
 
 export const metadata = {
@@ -19,12 +19,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="w-1/3 h-screen justify-center items-center mx-auto flex flex-grow">
-        <main className={notoSansMono.variable}>
-          <Navbar />
-          {children}
-          <Footer />
-        </main>
+      <body
+        className={`${notoSansMono.variable} w-1/3 h-screen flex flex-col justify-between mx-auto`}
+      >
+        <Navbar />
+        <main className="flex-1">{children}</main>
+        <Footer />
       </body>
     </html>
   );
