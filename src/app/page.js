@@ -7,17 +7,19 @@ export default function Home() {
         <Picture />
         <div id="infodiv">
           <p className="text-2xl text-gray-400 font-bold">
-            <span className="text-white">Hey, I'm Teemu</span>. I'm a
-            "full-stack" developer and a CS student.
+            <span className="text-white hover:text-blue-500 hover:cursor-pointer">
+              Hey, I'm Teemu
+            </span>
+            . I'm a "full-stack" developer and a CS student.
           </p>
           <Socials />
           <div></div>
         </div>
       </div>
       <div className="mt-6 flex flex-col gap-4" id="tldrdiv">
-        <p className="text-2xl font-bold">
-          Below is a quick TL;DR of me!
-          <span className="text-sm text-graytext ml-6">
+        <p className="text-2xl font-bold text-graytext">
+          A quick TL;DR of me!
+          <span className="text-sm text-gray-700 ml-6">
             since I know you are busy ;)
           </span>
         </p>

@@ -2,13 +2,13 @@ const TLDR = () => {
   return (
     <>
       <div>
-        <p className="font-bold text-2xl text-graytext mb-2">Experience</p>
-        <p className="text-white text-lg">
+        <p className="font-bold text-2xl text-white mb-2">Experience</p>
+        <p className="text-graytext text-lg">
           I have mostly worked as a{" "}
           <span className="text-accentOrange">front-end developer</span> on
           projects ranging from a simple{" "}
           <span className="text-accentOrange">one-page demos</span> to
-          <span className="text-accentOrange">complex data dashboards</span>
+          <span className="text-accentOrange"> complex data dashboards </span>
           and
           <span className="text-accentOrange"> full-stack applications</span>. I
           have some <span className="text-accentOrange">backend</span>- and
@@ -19,8 +19,8 @@ const TLDR = () => {
         </p>
       </div>
       <div>
-        <p className="font-bold text-2xl text-graytext mb-2">Skills</p>
-        <p className="text-white text-lg">
+        <p className="font-bold text-2xl text-white mb-2">Skills</p>
+        <p className="text-graytext text-lg">
           I excel at{" "}
           <span className="text-accentOrange">
             {" "}
@@ -36,10 +36,10 @@ const TLDR = () => {
         </p>
       </div>
       <div>
-        <p className="font-bold text-2xl text-graytext mb-2">
+        <p className="font-bold text-2xl text-white mb-2">
           Goals and Aspirations
         </p>
-        <p className="text-white text-lg">
+        <p className="text-graytext text-lg">
           I am committed to{" "}
           <span className="text-accentOrange">
             continuous learning and growth

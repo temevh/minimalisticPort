@@ -1,13 +1,14 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import { Roboto } from "next/font/google";
 //https://www.conordewey.com/
 //switch to roboto mono
+import { Noto_Sans_Mono } from "next/font/google";
 
-const roboto = Roboto({
-  weight: "300",
+const notoSansMono = Noto_Sans_Mono({
   subsets: ["latin"],
+  weight: ["400", "700"], // Choose weights as needed
+  variable: "--font-noto-sans-mono", // Optional CSS variable
 });
 
 export const metadata = {
@@ -18,8 +19,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="w-2/5 h-screen justify-center items-center mx-auto flex flex-grow">
-        <main className={roboto.className}>
+      <body className="w-1/3 h-screen justify-center items-center mx-auto flex flex-grow">
+        <main className={notoSansMono.variable}>
           <Navbar />
           {children}
           <Footer />
