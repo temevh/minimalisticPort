@@ -26,8 +26,13 @@ export default function Home() {
         <TLDR />
         <p className="text-graytext text-lg">
           Make sure to check out the
-          <span className="text-blue-700"> about me </span> page to get to know
-          me more!
+          <span className="text-blue-700">
+            <a href="/about" target="_self" rel="noopener noreferrer">
+              {" "}
+              about me{" "}
+            </a>
+          </span>{" "}
+          page to get to know me more!
         </p>
       </div>
     </div>
