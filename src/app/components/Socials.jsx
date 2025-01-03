@@ -9,7 +9,7 @@ const Socials = () => {
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-5 w-5"
+          className="h-5 w-5 text-gray-500"
           fill="currentColor"
           viewBox="0 0 24 24"
         >
@@ -25,7 +25,7 @@ const Socials = () => {
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-5 w-5"
+          className="h-5 w-5 text-linkedin"
           fill="currentColor"
           viewBox="0 0 24 24"
         >
@@ -40,7 +40,7 @@ const Socials = () => {
         className="flex flex-row pr-4 gap-2 items-center hover:text-discord hover:cursor-pointer"
       >
         <svg
-          className="h-5 w-5"
+          className="h-5 w-5 text-discord"
           fill="currentColor"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"

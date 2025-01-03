@@ -1,4 +1,4 @@
-import { Picture, Socials } from "./components";
+import { Picture, Socials, TLDR } from "./components";
 
 export default function Home() {
   return (
@@ -11,7 +11,17 @@ export default function Home() {
             developer and a CS student.
           </p>
           <Socials />
+          <div></div>
         </div>
+      </div>
+      <div className="mt-6 flex flex-col gap-4" id="tldrdiv">
+        <p className="text-2xl font-bold">
+          Below is a quick TL;DR of me!
+          <span className="text-sm text-graytext ml-6">
+            since I know you are busy ;)
+          </span>
+        </p>
+        <TLDR />
       </div>
     </div>
   );

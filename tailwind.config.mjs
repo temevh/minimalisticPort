@@ -13,6 +13,7 @@ export default {
         accentOrange: "#FF4D00",
         discord: "#5662f6",
         linkedin: "#0077B5",
+        graytext: "#949494",
       },
     },
   },
