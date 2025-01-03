@@ -1,9 +1,11 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import { Roboto } from "next/font/google";
+//https://www.conordewey.com/
+//switch to roboto mono
 
 const roboto = Roboto({
-  weight: "400",
+  weight: "300",
   subsets: ["latin"],
 });
 
@@ -15,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={"w-1/3 h-screen justify-center items-center mx-auto"}>
+      <body className="w-2/5 h-screen justify-center items-center mx-auto">
         <main className={roboto.className}>
           <Navbar />
           {children}

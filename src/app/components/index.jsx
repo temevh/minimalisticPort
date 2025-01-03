@@ -1,2 +1,3 @@
 import Picture from "./Picture";
-export { Picture };
+import Socials from "./Socials";
+export { Picture, Socials };

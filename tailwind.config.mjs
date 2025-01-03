@@ -11,6 +11,8 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         accentOrange: "#FF4D00",
+        discord: "#5662f6",
+        linkedin: "#0077B5",
       },
     },
   },
