@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-background p-2 pt-10">
+    <nav className="bg-background p-2 pt-10 mb-16">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a
           href="/"

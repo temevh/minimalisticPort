@@ -1,7 +1,10 @@
 const AboutPage = () => {
   return (
     <div>
-      <p>about me</p>
+      <div className="flex flex-row">
+        <Picture />
+        <p>Hey, I'm Teemu. I'm a front-end developer and a student.</p>
+      </div>
     </div>
   );
 };
