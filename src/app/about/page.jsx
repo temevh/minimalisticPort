@@ -1,4 +1,4 @@
-import { Work, General, Education } from "./components";
+import { Work, General, Education, Next } from "./components";
 
 const AboutPage = () => {
   return (
@@ -7,6 +7,7 @@ const AboutPage = () => {
         <General />
         <Work />
         <Education />
+        <Next />
       </div>
     </div>
   );

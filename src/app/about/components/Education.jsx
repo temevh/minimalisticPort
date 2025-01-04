@@ -1,7 +1,7 @@
 const Education = () => {
   return (
     <>
-      <p className="text-xl font-bold mt-4 mb-4">Education 👨‍💼</p>
+      <p className="text-xl font-bold mt-4 mb-4">Education 👨‍🎓</p>
       <p>
         After primary school I went to a local{" "}
         <a
