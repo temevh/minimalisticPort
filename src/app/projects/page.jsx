@@ -1,4 +1,4 @@
-import ProjectCard from "./components/ProjectCard";
+import { ProjectCard, SecondaryProjectCard } from "./components";
 
 const ProjectsPage = () => {
   const projectsPrimary = [
@@ -30,6 +30,9 @@ const ProjectsPage = () => {
       img: "https://user-images.githubusercontent.com/96690178/264060743-53ccea43-4be3-426c-9f78-1f6a67245932.jpg",
       code: "https://github.com/temevh/outhere",
     },
+  ];
+
+  const secondaryProjects = [
     {
       title: "Arduino alarm system",
       desc: "A fairly complex alarm system made with two Arduino boards which are connected with USART. The movement sensor waits for movements and triggers an alarm protocol when triggered",
@@ -66,9 +69,15 @@ const ProjectsPage = () => {
     <div>
       <div className="flex flex-col gap-4">
         <p className="text-3xl font-bold">Cool stuff I have made 👨‍💻</p>
-        {projectsPrimary.map((project) => (
-          <ProjectCard key={project.id} project={project} />
+        {projectsPrimary.map((project, index) => (
+          <ProjectCard key={project.id} project={project} index={index} />
         ))}
+        <p className="text-xl mt-4">More projects by me</p>
+        <div className="grid grid-cols-2 gap-4">
+          {secondaryProjects.map((project) => (
+            <SecondaryProjectCard project={project} />
+          ))}
+        </div>
       </div>
     </div>
   );
