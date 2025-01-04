@@ -6,7 +6,7 @@ const Picture = () => {
     <div className="rounded-full overflow-hidden border-2 border-accentOrange">
       <Image
         src={headshot}
-        width={200}
+        width={160}
         alt="My headshot picture"
         quality={100}
       />

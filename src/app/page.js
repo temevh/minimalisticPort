@@ -1,6 +1,22 @@
+"use client";
 import { Picture, Socials, TLDR } from "./components";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 export default function Home() {
+  const [text] = useTypewriter({
+    words: [
+      "Computer science student.",
+      "'Full-stack' developer.",
+      "Seasoned entrepreneur.",
+      "Fitness enthusiast.",
+      "Full-time nerd.",
+    ],
+    loop: true,
+    typeSpeed: 20,
+    deleteSpeed: 20,
+    delaySpeed: 1500,
+  });
+
   return (
     <div className="">
       <div className="flex flex-row gap-10 items-center mb-6">
@@ -15,8 +31,15 @@ export default function Home() {
             >
               Hey, I'm Teemu
             </a>
-            . I'm a "full-stack" developer and a CS student.
           </p>
+          <div className="text-2xl font-bold text-white overflow-hidden h-8">
+            <span className="text-graytext">{text}</span>
+            <Cursor
+              cursorBlinking="true"
+              cursorStyle="|"
+              cursorColor="text-designColor"
+            />
+          </div>
           <Socials />
         </div>
       </div>
