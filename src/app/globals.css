@@ -5,7 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #0c0f11;
-  --font-poppins: "Poppins", sans-serif;
+  --font-roboto-mono: "Roboto Mono", monospace;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,5 +18,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: var(--font-poppins);
+  font-family: var(--font-roboto-mono);
 }

@@ -70,12 +70,12 @@ const ProjectsPage = () => {
       <div className="flex flex-col gap-4">
         <p className="text-3xl font-bold">Cool stuff I have made 👨‍💻</p>
         {projectsPrimary.map((project, index) => (
-          <ProjectCard key={project.id} project={project} index={index} />
+          <ProjectCard key={project.title} project={project} index={index} />
         ))}
         <p className="text-xl mt-4">More projects by me</p>
         <div className="grid grid-cols-2 gap-4">
           {secondaryProjects.map((project) => (
-            <SecondaryProjectCard project={project} />
+            <SecondaryProjectCard project={project} key={project.title} />
           ))}
         </div>
       </div>

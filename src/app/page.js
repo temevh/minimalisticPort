@@ -7,9 +7,14 @@ export default function Home() {
         <Picture />
         <div id="infodiv">
           <p className="text-2xl text-gray-400 font-bold">
-            <span className="text-white hover:text-blue-500 hover:cursor-pointer">
+            <a
+              className="text-white hover:text-blue-500 hover:cursor-pointer"
+              href="/about"
+              target="_self"
+              rel="noopener noreferrer"
+            >
               Hey, I'm Teemu
-            </span>
+            </a>
             . I'm a "full-stack" developer and a CS student.
           </p>
           <Socials />

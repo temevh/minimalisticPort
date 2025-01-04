@@ -1,7 +1,7 @@
 const SecondaryProjectCard = ({ project }) => {
   return (
-    <div key={project.id} className="flex flex-col p-2 rounded-md">
-      <p className="text-md">{project.title}</p>
+    <div key={project.id} className="flex flex-col rounded-md">
+      <p className="text-md underline">{project.title}</p>
       <p className="text-sm">{project.desc}</p>
       <div className="flex flex-row gap-2 mt-2">
         {project.tags.map((tag, tagIndex) => (
