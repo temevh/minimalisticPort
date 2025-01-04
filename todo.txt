@@ -1,3 +1,1 @@
-listaa projektit top 4 yksityiskohtaisemmin kuvan kanssa, muut pienemempinä,
-
 Skillseihin tee "most used tech stack" josta klikkaamalla näkee muut front/back yms teknologiat

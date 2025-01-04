@@ -6,7 +6,7 @@ export default function Home() {
   const [text] = useTypewriter({
     words: [
       "Computer science student.",
-      "'Full-stack' developer.",
+      "¾-stack developer.",
       "Seasoned entrepreneur.",
       "Fitness enthusiast.",
       "Full-time nerd.",

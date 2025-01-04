@@ -3,17 +3,44 @@ const General = () => {
     <>
       <p className="text-3xl font-bold">Hey, I'm Teemu 👋</p>
       <p className="text-lg mb-6 mt-4">
-        Through my (fairly) short life I have seen a lot of stuff, for better or
-        worse. I have studied in two universities, and worked more jobs than I
-        have fingers in my right hand. Right now I am focusing on advancing my
-        CS studies while working on personal projects on the side.
+        Over the years, I've gained a{" "}
+        <span className="bg-yellow-200 text-black">wealth of experiences</span>{" "}
+        from studying at two universities and working in more roles than I can
+        count on one hand . Currently, I'm focused on{" "}
+        <span className="bg-yellow-200 text-black">
+          advancing my computer science studies
+        </span>{" "}
+        while <span className="bg-yellow-200 text-black">building</span>{" "}
+        personal <span className="bg-yellow-200 text-black">projects</span> that
+        fuel my{" "}
+        <span className="bg-yellow-200 text-black">
+          passion for development
+        </span>
+        .
       </p>
       <p className="text-lg">
-        As a developer I am a fairly "skip to the good part"-type. The good part
-        being the actual programming. Lately I have started to focus more on
-        modularity and responsiveness in my projects. I would like to learn more
-        machine learning and cyber security, and these are the things that I try
-        to gradularly add to my schedule.
+        As a developer, I enjoy{" "}
+        <span className="bg-yellow-200 text-black">
+          diving straight into the heart of programming
+        </span>
+        . Lately, I've been dedicating more attention to{" "}
+        <span className="bg-yellow-200 text-black">
+          modularity and responsiveness
+        </span>{" "}
+        in my projects, aiming to make them both efficient and user-friendly.
+        I'm also eager to expand my skills in{" "}
+        <span className="bg-yellow-200 text-black">
+          machine learning and cybersecurity
+        </span>
+        , gradually incorporating them into my schedule. If you're wondering
+        about the{" "}
+        <span className="bg-yellow-200 text-black">"¾-stack developer"</span> on
+        the landing page—it's my way of saying I'm on the journey to becoming a
+        full-stack developer. Not quite there yet, but I'm{" "}
+        <span className="bg-yellow-200 text-black">
+          getting closer every day
+        </span>
+        .
       </p>
     </>
   );
