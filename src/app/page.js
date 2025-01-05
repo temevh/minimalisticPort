@@ -41,6 +41,17 @@ export default function Home() {
             />
           </div>
           <Socials />
+          <div className="mt-2">
+            <a
+              href="https://drive.google.com/file/d/1E7zyljzi5_CsHjGF4510s63GfcR8mCzs/view?usp=sharing"
+              download="TeemuHamalainenResume.pdf"
+              className="text-blue-500 hover:text-graytext text-xl"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View/download my CV!
+            </a>
+          </div>
         </div>
       </div>
       <div className="mt-6 flex flex-col gap-4" id="tldrdiv">

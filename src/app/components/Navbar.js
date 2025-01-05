@@ -56,12 +56,6 @@ const Navbar = () => {
           </a>
 
           <a
-            href="/contact"
-            className="hover:text-accentOrange text-graytext font-bold"
-          >
-            Features
-          </a>
-          <a
             href="/skills"
             className="hover:text-accentOrange text-graytext font-bold"
           >

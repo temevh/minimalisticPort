@@ -4,8 +4,16 @@ const TopFive = () => {
   const stuff = [
     { title: "Books", list: ["Dune", "Ego", "Hitchikers guide"] },
     { title: "Movies", list: ["Dune", "Dune 2"] },
-    { title: "Sports", list: ["Dune", "Dune 2"] },
-    { title: "Foods", list: ["Dune", "Dune 2"] },
+    { title: "Sports", list: ["MMA", "Muay thai", "E-sports", ""] },
+    {
+      title: "Foods",
+      list: [
+        "Meatballs and mashed potatoes",
+        "Chicken nuggets",
+        "Lasagna (mom's)",
+        "",
+      ],
+    },
   ];
 
   return (

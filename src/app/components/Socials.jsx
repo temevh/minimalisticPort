@@ -33,6 +33,7 @@ const Socials = () => {
         </svg>
         <p className="text-lg pr-4">LinkedIn</p>
       </a>
+      {/* 
       <a
         href="https://www.discordapp.com/users/patruunapuristin/"
         target="_blank"
@@ -51,6 +52,7 @@ const Socials = () => {
         </svg>
         <p className="text-lg ">Discord</p>
       </a>
+      */}
     </div>
   );
 };
