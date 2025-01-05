@@ -28,6 +28,11 @@ const StrenWeak = () => {
         by lots of things and sometimes (okay, almost all the time) that means I
         spread myself too thin.
       </li>
+      <li className="mb-2">
+        <span className="font-bold">Impostor syndrome:</span> Like many
+        programmers, I sometimes doubt my skills, making me hesitant to suggest
+        improvements for example.
+      </li>
     </div>
   );
 };
