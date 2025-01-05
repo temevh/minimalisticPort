@@ -1,0 +1,35 @@
+const StrenWeak = () => {
+  return (
+    <div>
+      <p className="text-xl font-bold mt-4 mb-2">Strengths 👍</p>
+      <li className="mb-2">
+        <span className="font-bold">Adaptability: </span> I adapt extremely
+        quickly to new situations and can take charge if needed, even if the
+        situation is tense or challenging.
+      </li>
+      <li className="mb-2">
+        <span className="font-bold"> Jack of all trades:</span> I know quite a
+        bit about a few topics, but a bit about pretty much everything.
+      </li>
+      <li className="mb-2">
+        <span className="font-bold"> Peoples person:</span> I get along really
+        well with other people, regardless if they are an old friend or I just
+        met them 2 minutes ago.
+      </li>
+
+      <p className="text-xl font-bold mt-4 mb-2">Weaknesses 👎</p>
+      <li className="mb-2">
+        <span className="font-bold">Lack of planning:</span> I often skip
+        planning and dive straight into projects, which can lead to headaches
+        when things don't go as smoothly as expected.
+      </li>
+      <li className="mb-2">
+        <span className="font-bold">Overextending myself:</span> I get excited
+        by lots of things and sometimes (okay, almost all the time) that means I
+        spread myself too thin.
+      </li>
+    </div>
+  );
+};
+
+export default StrenWeak;

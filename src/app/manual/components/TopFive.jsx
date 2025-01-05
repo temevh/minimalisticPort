@@ -2,7 +2,7 @@ const TopFive = () => {
   //Books, movies, songs, sports, foods
 
   const stuff = [
-    { title: "Books", list: ["Dune", "Dune 2"] },
+    { title: "Books", list: ["Dune", "Ego", "Hitchikers guide"] },
     { title: "Movies", list: ["Dune", "Dune 2"] },
     { title: "Sports", list: ["Dune", "Dune 2"] },
     { title: "Foods", list: ["Dune", "Dune 2"] },

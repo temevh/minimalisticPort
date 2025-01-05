@@ -1,4 +1,4 @@
-import { TopFive } from "./components";
+import { TopFive, StrenWeak, Interests, Principles } from "./components";
 
 const ManualPage = () => {
   return (
@@ -8,7 +8,10 @@ const ManualPage = () => {
         This is a playbook on everything about me. It captures more about me and
         how I operate{" "}
       </p>
+      <Principles />
+      <StrenWeak />
       <TopFive />
+      <Interests />
     </div>
   );
 };

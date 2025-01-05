@@ -7,8 +7,6 @@ const Next = () => {
         <a
           href="/manual"
           className="text-blue-500 hover:text-blue-400 hover:cursor-pointer"
-          target="_blank"
-          rel="noopener noreferrer"
         >
           {" "}
           how to work with me

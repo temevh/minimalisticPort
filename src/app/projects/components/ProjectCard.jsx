@@ -8,7 +8,7 @@ const ProjectCard = ({ project, index }) => {
       <img
         src={project.img}
         alt={project.title}
-        className="w-32 h-32 rounded-[10px] object-cover border-[1px] border-secondary"
+        className="w-32 h-32 rounded-[10px] object-cover border-[1px] border-secondary opacity-80"
       />
       <div className="pl-4">
         <p className="font-bold">{project.title}</p>
