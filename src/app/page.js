@@ -49,7 +49,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              View/download my CV!
+              View/download my resume!
             </a>
           </div>
         </div>
