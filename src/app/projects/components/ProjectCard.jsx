@@ -11,8 +11,15 @@ const ProjectCard = ({ project, index }) => {
         className="w-32 h-32 rounded-[10px] object-cover border-[1px] border-secondary opacity-80"
       />
       <div className="pl-4">
-        <p className="font-bold">{project.title}</p>
-        <p className="text-graytext text-md mb-2">{project.desc}</p>
+        <a
+          className="font-bold text-lg text-blue-500"
+          href={project.code}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {project.title}
+        </a>
+        <p className="text-white text-md mb-2">{project.desc}</p>
         <div className="flex flex-row gap-2">
           {project.tags.map((tag, tagIndex) => (
             <p key={tagIndex} className="text-sm bg-gray-500 px-1 rounded-md">

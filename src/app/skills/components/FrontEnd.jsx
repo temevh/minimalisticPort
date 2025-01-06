@@ -14,6 +14,16 @@ const FrontEnd = ({ openModal }) => {
           code: "https://github.com/temevh/tuuraaja",
           roles: ["Developer", "Designer"],
         },
+        {
+          name: "Maltas Data Dashboard",
+          code: "https://github.com/PROJ-A2023-G08/maltas-data-dashboard",
+          roles: ["Developer", "Designer"],
+        },
+        {
+          name: "React Review App",
+          code: "https://github.com/temevh/react-review-app",
+          roles: ["Developer", "Designer"],
+        },
       ],
     },
     {
@@ -34,6 +44,7 @@ const FrontEnd = ({ openModal }) => {
           <span
             className="hover:text-graytext hover:cursor-pointer"
             onClick={() => openModal(skill)}
+            key={skill.name}
           >
             <p className="text-lg">{skill.name}</p>
           </span>

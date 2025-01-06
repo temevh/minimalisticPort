@@ -26,9 +26,9 @@ const SkillsPage = () => {
         My most common tech stack looks like the following
       </p>
       <FrontEnd openModal={openModal} />
-      <BackEnd />
-      <FrameWorks />
-      <Other />
+      <BackEnd openModal={openModal} />
+      <FrameWorks openModal={openModal} />
+      <Other openModal={openModal} />
 
       {isModalOpen && (
         <Modal selectedSkill={selectedSkill} closeModal={closeModal} />

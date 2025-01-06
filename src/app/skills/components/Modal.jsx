@@ -1,9 +1,9 @@
 const Modal = ({ selectedSkill, closeModal }) => {
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-      <div className=" bg-black p-6 rounded-lg shadow-lg max-w-md w-full relative">
+    <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center">
+      <div className="bg-black p-6 rounded-lg shadow-lg max-w-md w-full relative">
         <button
-          className="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
+          className="absolute top-2 right-2 text-gray-500 hover:text-gray-700 text-3xl"
           onClick={closeModal}
         >
           ✕
@@ -13,22 +13,27 @@ const Modal = ({ selectedSkill, closeModal }) => {
         {selectedSkill.projects && (
           <>
             <p className="font-bold mb-2">Projects:</p>
-            <ul className="list-disc list-inside">
-              {selectedSkill.projects.map((project) => (
-                <li key={project.name}>
-                  <span className="font-bold">{project.name}</span>:{" "}
+            {selectedSkill.projects.map((project) => (
+              <div key={project.name} className="mb-4">
+                {project.code ? (
                   <a
+                    className="font-bold text-xl underline text-blue-500"
                     href={project.code}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-500 underline"
                   >
-                    Code
-                  </a>{" "}
-                  ({project.roles.join(", ")})
-                </li>
-              ))}
-            </ul>
+                    {project.name}
+                  </a>
+                ) : (
+                  <span className="font-bold text-xl text-white cursor-default">
+                    {project.name}
+                  </span>
+                )}
+                <p className="text-gray-300 text-sm mt-1">
+                  {project.roles.join(", ")}
+                </p>
+              </div>
+            ))}
           </>
         )}
       </div>
