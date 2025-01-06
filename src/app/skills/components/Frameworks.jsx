@@ -1,29 +1,31 @@
-const BackEnd = () => {
+const FrameWorks = () => {
   const skills = [
     {
-      name: "MongoDb",
-      desc: "I use Mongo as my default back-end due to the fast development time and good tools like Mongo Atlas and compass",
+      name: "TailwindCSS",
+      desc: "I mainly use Tailwind for my CSS needs, mostly due to its ease of use and good documentation.",
       projects: [
         {
           name: "Valuemap",
           code: "https://github.com/temevh/valuework",
+          roles: ["Developer", "Designer", "Project lead"],
         },
         {
           name: "Tuuraaja",
           code: "https://github.com/temevh/tuuraaja",
+          roles: ["Developer", "Designer"],
         },
       ],
     },
     {
-      name: "Node.js",
-      desc: "I use Node.js for my backend and API needs in most cases",
+      name: "NextJs",
+      desc: "I have started to prefer NextJs as my framework for projects that are bigger than a single page.",
     },
   ];
 
   return (
     <>
       <div className="flex flex-row gap-8">
-        <p className="text-lg text-graytext">Backend:</p>
+        <p className="text-lg text-graytext">Frameworks & Libraries:</p>
         {skills.map((skill) => (
           <span className="hover:text-graytext hover:cursor-pointer">
             <p className="text-lg">{skill.name}</p>
@@ -34,4 +36,4 @@ const BackEnd = () => {
   );
 };
 
-export default BackEnd;
+export default FrameWorks;

@@ -14,11 +14,15 @@ const TopFive = () => {
         "",
       ],
     },
+    {
+      title: "Operating systems",
+      list: ["Windows", "Kali Linux", "Ubuntu", "Android", "iOS"],
+    },
   ];
 
   return (
     <>
-      <p className="text-xl font-bold mt-4 ">Top 5 of 4🎈</p>
+      <p className="text-xl font-bold mt-4 ">Top 5 of 5🎈</p>
       <p className="text-sm text-graytext">Without any real reasoning</p>
     </>
   );
