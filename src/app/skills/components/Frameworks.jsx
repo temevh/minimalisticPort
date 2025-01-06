@@ -21,7 +21,7 @@ const FrameWorks = ({ openModal }) => {
       ],
     },
     {
-      name: "NextJs",
+      name: "Next.Js",
       desc: "I have started to prefer NextJs as my framework for projects that are bigger than a single page.",
     },
   ];

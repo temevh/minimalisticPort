@@ -11,7 +11,7 @@ const Modal = ({ selectedSkill, closeModal }) => {
         <h2 className="text-xl font-bold mb-2">{selectedSkill.name}</h2>
         <p className="mb-4">{selectedSkill.desc}</p>
         {selectedSkill.projects && (
-          <>
+          <div key={selectedSkill}>
             <p className="font-bold mb-2">Projects:</p>
             {selectedSkill.projects.map((project) => (
               <div key={project.name} className="mb-4">
@@ -29,12 +29,14 @@ const Modal = ({ selectedSkill, closeModal }) => {
                     {project.name}
                   </span>
                 )}
-                <p className="text-gray-300 text-sm mt-1">
-                  {project.roles.join(", ")}
-                </p>
+                {project.roles && (
+                  <p className="text-gray-300 text-sm mt-1" key={project.roles}>
+                    {project.roles.join(", ")}
+                  </p>
+                )}
               </div>
             ))}
-          </>
+          </div>
         )}
       </div>
     </div>
