@@ -42,7 +42,7 @@ const Other = ({ openModal }) => {
     },
     {
       name: "C",
-      desc: "I have used C in multiple different courses, and have tried to use it in my personal projects but I never really got myself to like it. Sure I can use it, but I still prefer C++ (or Rust, once I learn it lol). Im not really sure why, but I never just liked C that much and the programming experience has always felt tiresome.",
+      desc: "I have used C in multiple different courses (low level programming, embedded systems), and have tried to use it in my personal projects but I never really got myself to like it. Sure I can use it, but I still prefer C++ (or Rust, once I learn it lol). Im not really sure why, but I never just liked C that much and the programming experience has always felt tiresome.",
       projects: [
         {
           name: "Valuemap",
@@ -82,6 +82,36 @@ const Other = ({ openModal }) => {
     },
   ];
 
+  const Tools = [
+    {
+      name: "Atmel Studio",
+      desc: "I have utilized Atmel Studio to develop embedded systems in C. It’s my preferred platform due to its use of near-native C, which offers greater flexibility compared to other platforms like the Arduino IDE.",
+    },
+    {
+      name: "Docker",
+      desc: "I have a solid understanding of containerization concepts, including how containers work and when they are most effective. My experience includes creating and adjusting Docker scripts for small-scale projects.",
+    },
+    {
+      name: "PostgreSQL",
+      desc: "I have practical experience working with SQL databases, gained through academic coursework, smaller projects, and personal endeavors. PostgreSQL is a tool I appreciate for its robustness and versatility.",
+    },
+  ];
+
+  const Design = [
+    {
+      name: "Figma",
+      desc: "Figma is my go-to for creating UI's and collaborating with other people in everything design related. ",
+    },
+    {
+      name: "UI/UX prototyping",
+      desc: "I have a solid understanding of containerization concepts, including how containers work and when they are most effective. My experience includes creating and adjusting Docker scripts for small-scale projects.",
+    },
+    {
+      name: "PostgreSQL",
+      desc: "I have practical experience working with SQL databases, gained through academic coursework, smaller projects, and personal endeavors. PostgreSQL is a tool I appreciate for its robustness and versatility.",
+    },
+  ];
+
   return (
     <div className="mt-4">
       <p className="text-lg">Beyond the Basics</p>
@@ -97,14 +127,30 @@ const Other = ({ openModal }) => {
           </span>
         ))}
       </div>
-      <p className="text-lg">
-        <span className="text-lg text-graytext">Tools:</span> Atmel Studio,
-        Docker, PostgreSQL
-      </p>
-      <p className="text-lg">
-        <span className="text-lg text-graytext">Design:</span> Figma, UI/UX
-        prototyping
-      </p>
+      <div className="flex flex-row gap-8">
+        <span className="text-lg text-graytext">Tools:</span>
+        {Tools.map((tool) => (
+          <span
+            className="hover:text-graytext hover:cursor-pointer"
+            onClick={() => openModal(tool)}
+            key={tool.name}
+          >
+            <p className="text-lg">{tool.name}</p>
+          </span>
+        ))}
+      </div>
+      <div className="flex flex-row gap-8">
+        <span className="text-lg text-graytext">Design:</span>
+        {Design.map((tool) => (
+          <span
+            className="hover:text-graytext hover:cursor-pointer"
+            onClick={() => openModal(tool)}
+            key={tool.name}
+          >
+            <p className="text-lg">{tool.name}</p>
+          </span>
+        ))}
+      </div>
       <p className="text-lg">
         <span className="text-lg text-graytext">Other:</span> APIs, Git,
         cybersecurity, accessibility
