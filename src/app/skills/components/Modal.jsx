@@ -10,34 +10,36 @@ const Modal = ({ selectedSkill, closeModal }) => {
         </button>
         <h2 className="text-xl font-bold mb-2">{selectedSkill.name}</h2>
         <p className="mb-4">{selectedSkill.desc}</p>
+        {/* 
         {selectedSkill.projects && (
-          <div key={selectedSkill}>
+            <div key={selectedSkill}>
             <p className="font-bold mb-2">Projects:</p>
             {selectedSkill.projects.map((project) => (
               <div key={project.name} className="mb-4">
                 {project.code ? (
                   <a
-                    className="font-bold text-xl underline text-blue-500"
-                    href={project.code}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  className="font-bold text-xl underline text-blue-500"
+                  href={project.code}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   >
-                    {project.name}
+                  {project.name}
                   </a>
                 ) : (
                   <span className="font-bold text-xl text-white cursor-default">
-                    {project.name}
+                  {project.name}
                   </span>
                 )}
                 {project.roles && (
                   <p className="text-gray-300 text-sm mt-1" key={project.roles}>
-                    {project.roles.join(", ")}
+                  {project.roles.join(", ")}
                   </p>
                 )}
               </div>
             ))}
           </div>
         )}
+                */}
       </div>
     </div>
   );

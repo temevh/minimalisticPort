@@ -2,7 +2,7 @@ const BackEnd = ({ openModal }) => {
   const skills = [
     {
       name: "MongoDb",
-      desc: "I use Mongo as my default back-end due to the fast development time and good tools like Mongo Atlas and compass",
+      desc: "I use Mongo as my default back-end due to the fast development time and good tools like Mongo Atlas and compass. I also like other aspecs of noSQL, for example the lack of primary keys and confusing tables.",
       projects: [
         {
           name: "Valuemap",

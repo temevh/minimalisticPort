@@ -2,7 +2,7 @@ const FrameWorks = ({ openModal }) => {
   const skills = [
     {
       name: "TailwindCSS",
-      desc: "I mainly use Tailwind for my CSS needs mostly due to its ease of use and good documentation.",
+      desc: "I mainly use Tailwind for my CSS needs mostly due to its ease of use and good documentation. I have tried Bootstrap and sass, but felt the most comfortably with Tailwind in the end",
       projects: [
         {
           name: "Valuemap",
@@ -22,7 +22,7 @@ const FrameWorks = ({ openModal }) => {
     },
     {
       name: "Next.Js",
-      desc: "I have started to prefer NextJs as my framework for projects that are bigger than a single page.",
+      desc: "I have started to prefer NextJs as my framework for projects that are bigger than a single page. One thing which I dislike about Next though is the changes between updates.",
     },
   ];
 

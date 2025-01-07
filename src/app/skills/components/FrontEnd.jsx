@@ -2,7 +2,7 @@ const FrontEnd = ({ openModal }) => {
   const skills = [
     {
       name: "React.js",
-      desc: "React is my go-to framework for everything frontend related",
+      desc: "React is my go-to framework for everything frontend related. I have a lot of experience with React and its accessory libraries, like redux for example.",
       projects: [
         {
           name: "Valuemap",
