@@ -80,12 +80,16 @@ const Other = ({ openModal }) => {
         },
       ],
     },
+    {
+      name: "Dart",
+      desc: "I have used Dart on a few different occasions to create some mobile apps. I like to component structure of Dart/Flutter, and feel that it's a breath of fresh air, when compared to React Native for example.",
+    },
   ];
 
   const Tools = [
     {
       name: "Atmel Studio",
-      desc: "I have utilized Atmel Studio to develop embedded systems in C. It’s my preferred platform due to its use of near-native C, which offers greater flexibility compared to other platforms like the Arduino IDE.",
+      desc: "I have utilized Atmel Studio to develop embedded systems in C. It's my preferred platform due to its use of near-native C, which offers greater flexibility compared to other platforms like the Arduino IDE.",
     },
     {
       name: "Docker",
@@ -105,6 +109,29 @@ const Other = ({ openModal }) => {
     {
       name: "UI/UX prototyping",
       desc: "Before doing any designs with Figma I like to do some basic wireframe sketches with pen and paper. I often also think about the interactions of different components in this stage, and refine them in Figma.",
+    },
+  ];
+
+  const Other = [
+    {
+      name: "API's",
+      desc: "I regularly use API's in my projects and have created some myself for different projects. I try to incorporate API usage as much as possible, mainly to reduce repetition.",
+    },
+    {
+      name: "Git",
+      desc: "I use Git as my version management and have gotten to know the usage of it pretty well. Sometimes I use the GUI for merge conflicts etc, but mostly I get stuff done with just the terminal.",
+    },
+    {
+      name: "Cybersecurity",
+      desc: "I am interested in cybersecurity, and have spent some time learning it in school and outside of school. I managed to get to top 3% globally in tryhackme.com and have done some CTF's in HackTheBox. I try to stay up-to-date with the current cybersecurity principles and with the latest related news.",
+    },
+    {
+      name: "Accessibility",
+      desc: "Lately I have started to put more thought into the accessibility of my applications and projects. I try to find the fine line between usability and functionality.",
+    },
+    {
+      name: "Mobile",
+      desc: "I have developed mobile apps and functionalities with Dart and React Native mainly, but have done a few small modules with Kotlin. I like mobile development, especially when the stars align and I don't get any gradle/SDK/Java/Android errors...",
     },
   ];
 
@@ -147,10 +174,18 @@ const Other = ({ openModal }) => {
           </span>
         ))}
       </div>
-      <p className="text-lg">
-        <span className="text-lg text-graytext">Other:</span> APIs, Git,
-        cybersecurity, accessibility
-      </p>
+      <div className="flex flex-row gap-8">
+        <span className="text-lg text-graytext">Other:</span>
+        {Other.map((tool) => (
+          <span
+            className="hover:text-graytext hover:cursor-pointer"
+            onClick={() => openModal(tool)}
+            key={tool.name}
+          >
+            <p className="text-lg">{tool.name}</p>
+          </span>
+        ))}
+      </div>
     </div>
   );
 };
