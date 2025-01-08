@@ -100,15 +100,11 @@ const Other = ({ openModal }) => {
   const Design = [
     {
       name: "Figma",
-      desc: "Figma is my go-to for creating UI's and collaborating with other people in everything design related. ",
+      desc: "Figma is my go-to for creating UI's and collaborating with other people in everything design related. I also sometimes use Figma as a Kanban-board or just in general for notes related to a project.",
     },
     {
       name: "UI/UX prototyping",
-      desc: "I have a solid understanding of containerization concepts, including how containers work and when they are most effective. My experience includes creating and adjusting Docker scripts for small-scale projects.",
-    },
-    {
-      name: "PostgreSQL",
-      desc: "I have practical experience working with SQL databases, gained through academic coursework, smaller projects, and personal endeavors. PostgreSQL is a tool I appreciate for its robustness and versatility.",
+      desc: "Before doing any designs with Figma I like to do some basic wireframe sketches with pen and paper. I often also think about the interactions of different components in this stage, and refine them in Figma.",
     },
   ];
 
