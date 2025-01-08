@@ -1,6 +1,13 @@
 "use client";
 import { useState } from "react";
-import { FrontEnd, BackEnd, FrameWorks, Other, Modal } from "./components";
+import {
+  FrontEnd,
+  BackEnd,
+  FrameWorks,
+  Other,
+  Modal,
+  Features,
+} from "./components";
 
 const SkillsPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -29,6 +36,7 @@ const SkillsPage = () => {
       <BackEnd openModal={openModal} />
       <FrameWorks openModal={openModal} />
       <Other openModal={openModal} />
+      {/* <Features />*/}
 
       {isModalOpen && (
         <Modal selectedSkill={selectedSkill} closeModal={closeModal} />
