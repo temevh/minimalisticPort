@@ -54,13 +54,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="mt-6 flex flex-col gap-4" id="tldrdiv">
-        <p className="text-2xl font-bold text-graytext">
-          A quick TL;DR of me!
-          <span className="text-sm text-gray-700 ml-6">
-            since I know you are busy ;)
-          </span>
-        </p>
+      <p className="text-2xl font-bold text-graytext">A quick TL;DR of me!</p>
+      <p className="text-sm text-gray-700">since I know you are busy ;)</p>
+      <div className="mt-4 flex flex-col gap-4" id="tldrdiv">
         <TLDR />
         <p className="text-graytext text-lg">
           Make sure to check out the
