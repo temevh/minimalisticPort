@@ -99,6 +99,14 @@ const Other = ({ openModal }) => {
       name: "PostgreSQL",
       desc: "I have practical experience working with SQL databases, gained through academic coursework, smaller projects, and personal endeavors. PostgreSQL is a tool I appreciate for its robustness and versatility.",
     },
+    {
+      name: "Heroku",
+      desc: "Heroku is my go-to platform for hosting and deploying backend functionality. I appreciate its simplicity, built-in support for various programming languages, and ability to quickly scale applications. Also I like how the CLI is fairly simple and straightforward to use.",
+    },
+    {
+      name: "Vercel",
+      desc: "Vercel is my preferred choice for deploying frontend applications, especially those built with Next.js. I've utilized Vercel to deploy production-ready applications with responsive designs and blazing-fast load times.",
+    },
   ];
 
   const Design = [

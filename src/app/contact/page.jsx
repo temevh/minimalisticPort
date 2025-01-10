@@ -2,7 +2,7 @@ const ContactPage = () => {
   return (
     <div>
       <p className="text-3xl font-bold">Get in touch✉</p>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 mt-6">
         <p className="text-xl text-white">
           <span className=" text-graytext">Email:</span>temehama@gmail.com
         </p>

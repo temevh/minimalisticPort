@@ -7,6 +7,7 @@ import {
   Other,
   Modal,
   Features,
+  Quotes,
 } from "./components";
 
 const SkillsPage = () => {
@@ -37,7 +38,7 @@ const SkillsPage = () => {
       <FrameWorks openModal={openModal} />
       <Other openModal={openModal} />
       {/* <Features />*/}
-
+      <Quotes />
       {isModalOpen && (
         <Modal selectedSkill={selectedSkill} closeModal={closeModal} />
       )}
