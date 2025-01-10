@@ -58,7 +58,7 @@ export default function Home() {
       <p className="text-sm text-gray-700">since I know you are busy ;)</p>
       <div className="mt-4 flex flex-col gap-4" id="tldrdiv">
         <TLDR />
-        <p className="text-graytext text-lg">
+        <p className="text-white text-lg">
           Make sure to check out the
           <span className="text-blue-700">
             <a href="/about" target="_self" rel="noopener noreferrer">
@@ -67,6 +67,9 @@ export default function Home() {
             </a>
           </span>{" "}
           page to get to know me more!
+        </p>
+        <p className="text-lg text-graytext">
+          You can find my contact info in the resume!
         </p>
       </div>
     </div>

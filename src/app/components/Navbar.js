@@ -40,7 +40,6 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Desktop Links */}
         <div className="hidden lg:flex space-x-4 text-white">
           <a
             href="/about"
@@ -61,12 +60,14 @@ const Navbar = () => {
           >
             Skills
           </a>
+          {/* 
           <a
             href="/contact"
             className="hover:text-accentOrange text-graytext font-bold"
           >
             Contact
           </a>
+          */}
         </div>
       </div>
 
@@ -105,19 +106,8 @@ const Navbar = () => {
           >
             Projects
           </a>
-          <a
-            href="/contact"
-            className="text-white text-xl"
-            onClick={toggleMenu}
-          >
-            Contact
-          </a>
-          <a
-            href="/contact"
-            className="text-white text-xl"
-            onClick={toggleMenu}
-          >
-            Features
+          <a href="/skills" className="text-white text-xl" onClick={toggleMenu}>
+            Skills
           </a>
         </div>
       </div>

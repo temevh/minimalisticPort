@@ -1,7 +1,6 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-//https://www.conordewey.com/
 
 import { Roboto_Mono } from "next/font/google";
 
