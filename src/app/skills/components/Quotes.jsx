@@ -45,7 +45,7 @@ const Quotes = () => {
         responsive={responsive}
         autoPlay={true}
         infinite={true}
-        autoPlaySpeed={3000}
+        autoPlaySpeed={6000}
         arrows={false}
       >
         {items.map((item) => (
