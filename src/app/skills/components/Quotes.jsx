@@ -47,6 +47,7 @@ const Quotes = () => {
         infinite={true}
         autoPlaySpeed={6000}
         arrows={false}
+        ssr={true}
       >
         {items.map((item) => (
           <div key={item.person} className="text-center p-4 ">
