@@ -69,7 +69,12 @@ export default function Home() {
           page to get to know me more!
         </p>
         <p className="text-lg text-graytext">
-          You can find my contact info in the resume!
+          You can find my{" "}
+          <span className="bg-yellow-200 text-black font-bold">
+            {" "}
+            contact info
+          </span>{" "}
+          in the resume!
         </p>
       </div>
     </div>
