@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-background p-2 mb-12 mt-10 w-full">
+    <nav className="bg-background p-2 lg:mb-12 mt-4 lg:mt-10 w-full">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a
           href="/"
@@ -72,7 +72,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`lg:hidden fixed inset-0 bg-gray-800 bg-opacity-75 transition-all transform ${
+        className={`lg:hidden fixed inset-0 bg-gray-800 bg-opacity-90 transition-all transform ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -94,8 +94,7 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
-
-        <div className="flex flex-col items-center mt-8 space-y-4">
+        <div className="flex flex-col items-center mt-48 h-full space-y-4">
           <a href="/about" className="text-white text-xl" onClick={toggleMenu}>
             About
           </a>

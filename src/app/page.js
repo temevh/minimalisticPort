@@ -19,10 +19,10 @@ export default function Home() {
 
   return (
     <div className="">
-      <div className="flex flex-row gap-10 items-center mb-6">
+      <div className="flex flex-row gap-2 lg:gap-10 items-center mb-6">
         <Picture />
         <div id="infodiv">
-          <p className="text-2xl text-gray-400 font-bold">
+          <p className="text-md lg:text-2xl text-gray-400 font-bold">
             <a
               className="text-white hover:text-blue-500 hover:cursor-pointer"
               href="/about"
@@ -32,7 +32,7 @@ export default function Home() {
               Hey, I'm Teemu
             </a>
           </p>
-          <div className="text-2xl font-bold text-white overflow-hidden h-8">
+          <div className="text-sm lg:text-2xl font-bold text-white overflow-hidden h-6 lg:h-8">
             <span className="text-graytext">{text}</span>
             <Cursor
               cursorBlinking="true"
@@ -41,11 +41,11 @@ export default function Home() {
             />
           </div>
           <Socials />
-          <div className="mt-2">
+          <div className="lg:mt-2">
             <a
               href="https://drive.google.com/file/d/1E7zyljzi5_CsHjGF4510s63GfcR8mCzs/view?usp=sharing"
               download="TeemuHamalainenResume.pdf"
-              className="text-blue-500 hover:text-graytext text-xl"
+              className="text-blue-500 hover:text-graytext text-md lg:text-xl"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -54,11 +54,15 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <p className="text-2xl font-bold text-graytext">A quick TL;DR of me!</p>
-      <p className="text-sm text-gray-700">since I know you are busy ;)</p>
+      <p className="lg:text-2xl text-lg font-bold text-graytext">
+        A quick TL;DR of me!
+      </p>
+      <p className="lg:text-sm text-xs text-gray-700">
+        since I know you are busy ;)
+      </p>
       <div className="mt-4 flex flex-col gap-4" id="tldrdiv">
         <TLDR />
-        <p className="text-white text-lg">
+        <p className="text-white text-sm lg:text-lg">
           Make sure to check out the
           <span className="text-blue-700">
             <a href="/about" target="_self" rel="noopener noreferrer">
@@ -68,7 +72,7 @@ export default function Home() {
           </span>{" "}
           page to get to know me more!
         </p>
-        <p className="text-lg text-graytext">
+        <p className="text-sm lg:text-lg text-graytext">
           You can find my{" "}
           <span className="bg-yellow-200 text-black font-bold">
             {" "}
