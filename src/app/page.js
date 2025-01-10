@@ -21,7 +21,7 @@ export default function Home() {
     <div className="">
       <div className="flex flex-row gap-2 lg:gap-10 items-center mb-6">
         <Picture />
-        <div id="infodiv">
+        <div className="ml-4 lg:ml-0">
           <p className="text-md lg:text-2xl text-gray-400 font-bold">
             <a
               className="text-white hover:text-blue-500 hover:cursor-pointer"
@@ -45,7 +45,7 @@ export default function Home() {
             <a
               href="https://drive.google.com/file/d/1E7zyljzi5_CsHjGF4510s63GfcR8mCzs/view?usp=sharing"
               download="TeemuHamalainenResume.pdf"
-              className="text-blue-500 hover:text-graytext text-md lg:text-xl"
+              className="text-blue-500 hover:text-graytext text-sm lg:text-xl"
               target="_blank"
               rel="noopener noreferrer"
             >
