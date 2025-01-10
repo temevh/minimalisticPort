@@ -1,3 +1,6 @@
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
 const Quotes = () => {
   const items = [
     {
@@ -17,15 +20,44 @@ const Quotes = () => {
     },
   ];
 
+  const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 3000 },
+      items: 1,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 1,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 1,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
+
   return (
-    <div className="flex flex-row gap-6">
-      {items.map((item) => (
-        <div key={item.person}>
-          <p className="text-md">"{item.say}"</p>
-          <p className="font-bold text-graytext text-sm">{item.person}</p>
-          <p className="text-graytext text-sm">{item.title}</p>
-        </div>
-      ))}
+    <div className="w-full max-w-screen-lg mx-auto mt-6">
+      <Carousel
+        responsive={responsive}
+        autoPlay={true}
+        infinite={true}
+        autoPlaySpeed={3000}
+        arrows={false}
+      >
+        {items.map((item) => (
+          <div key={item.person} className="text-center p-4 ">
+            <p className="text-md">"{item.say}"</p>
+            <p className="font-bold text-gray-700 text-lg mt-2">
+              {item.person}
+            </p>
+            <p className="text-gray-500 text-sm">{item.title}</p>
+          </div>
+        ))}
+      </Carousel>
     </div>
   );
 };
