@@ -1,8 +1,10 @@
 const Education = () => {
   return (
     <>
-      <p className="text-xl font-bold mt-4 mb-4">Education 👨‍🎓</p>
-      <p>
+      <p className="lg:text-3xl text-xl font-bold mt-2 lg:mt-4 mb-2 lg:mb-4">
+        Education 👨‍🎓
+      </p>
+      <p className="lg:text-lg text-sm lg:mb-6 lg:mt-4">
         After primary school I went to a local{" "}
         <a
           href="https://www.gradia.fi/jyvaskylan-lyseon-lukio-lukiolinja/l16691"

@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-background p-2 lg:mb-12 mt-4 lg:mt-10 w-full">
+    <nav className="bg-background px-3 lg:mb-12 mt-4 lg:mt-10 w-full">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a
           href="/"
@@ -76,7 +76,7 @@ const Navbar = () => {
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex justify-end p-4">
+        <div className="flex justify-end p-4 z-10">
           <button onClick={toggleMenu} className="text-white">
             <svg
               className="w-6 h-6"

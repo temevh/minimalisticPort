@@ -67,11 +67,11 @@ const ProjectsPage = () => {
 
   return (
     <div>
-      <p className="text-3xl font-bold">Cool stuff I have made 👨‍💻</p>
-      <p className="text-sm text-graytext italic mb-4 mt-2">
+      <p className="lg:text-3xl text-xl font-bold">Cool stuff I have made 👨‍💻</p>
+      <p className="lg:text-sm text-xs text-graytext italic mb-4 mt-2">
         These are just a few of the projects I have made
       </p>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-2 lg:gap-4">
         {projectsPrimary.map((project, index) => (
           <ProjectCard key={project.title} project={project} index={index} />
         ))}

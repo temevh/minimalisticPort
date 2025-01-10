@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
         className={`${robotoMono.variable} lg:w-2/5 h-screen flex flex-col justify-between mx-auto`}
       >
         <Navbar />
-        <main className="flex-1 p-2 lg:p-0">{children}</main>
+        <main className="flex-1 p-3 lg:p-0">{children}</main>
         <Footer />
       </body>
     </html>

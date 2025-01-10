@@ -88,7 +88,7 @@ const Other = ({ openModal }) => {
 
   const Tools = [
     {
-      name: "Atmel Studio",
+      name: "Atmel",
       desc: "I have utilized Atmel Studio to develop embedded systems in C. It's my preferred platform due to its use of near-native C, which offers greater flexibility compared to other platforms like the Arduino IDE.",
     },
     {
@@ -145,54 +145,64 @@ const Other = ({ openModal }) => {
 
   return (
     <div className="mt-4">
-      <p className="text-lg">Beyond the Basics</p>
-      <div className="flex flex-row gap-8">
-        <span className="text-lg text-graytext">Languages:</span>
-        {languages.map((language) => (
-          <span
-            className="hover:text-graytext hover:cursor-pointer"
-            onClick={() => openModal(language)}
-            key={language.name}
-          >
-            <p className="text-lg">{language.name}</p>
-          </span>
-        ))}
+      <p className="text-sm lg:text-lg lg:mt-4">Beyond the Basics</p>
+      <div className="lg:flex lg:flex-row lg:gap-6">
+        <p className="lg:text-lg text-sm text-graytext">Languages:</p>
+        <div className="flex flex-row gap-2">
+          {languages.map((language) => (
+            <span
+              className="hover:text-graytext hover:cursor-pointer"
+              onClick={() => openModal(language)}
+              key={language.name}
+            >
+              <p className="lg:text-lg text-xs">{language.name}</p>
+            </span>
+          ))}
+        </div>
       </div>
       <div className="flex flex-row gap-8">
-        <span className="text-lg text-graytext">Tools:</span>
-        {Tools.map((tool) => (
-          <span
-            className="hover:text-graytext hover:cursor-pointer"
-            onClick={() => openModal(tool)}
-            key={tool.name}
-          >
-            <p className="text-lg">{tool.name}</p>
-          </span>
-        ))}
+        <div className="lg:flex lg:flex-row lg:gap-6">
+          <p className="lg:text-lg text-sm text-graytext">Tools:</p>
+          <div className="flex flex-row gap-2">
+            {Tools.map((tool) => (
+              <span
+                className="hover:text-graytext hover:cursor-pointer"
+                onClick={() => openModal(tool)}
+                key={tool.name}
+              >
+                <p className="lg:text-lg text-xs">{tool.name}</p>
+              </span>
+            ))}
+          </div>
+        </div>
       </div>
-      <div className="flex flex-row gap-8">
-        <span className="text-lg text-graytext">Design:</span>
-        {Design.map((tool) => (
-          <span
-            className="hover:text-graytext hover:cursor-pointer"
-            onClick={() => openModal(tool)}
-            key={tool.name}
-          >
-            <p className="text-lg">{tool.name}</p>
-          </span>
-        ))}
+      <div className="lg:flex lg:flex-row lg:gap-6">
+        <p className="lg:text-lg text-sm text-graytext">Design:</p>
+        <div className="flex flex-row gap-2">
+          {Design.map((tool) => (
+            <span
+              className="hover:text-graytext hover:cursor-pointer"
+              onClick={() => openModal(tool)}
+              key={tool.name}
+            >
+              <p className="lg:text-lg text-xs">{tool.name}</p>
+            </span>
+          ))}
+        </div>
       </div>
-      <div className="flex flex-row gap-8">
-        <span className="text-lg text-graytext">Other:</span>
-        {Other.map((tool) => (
-          <span
-            className="hover:text-graytext hover:cursor-pointer"
-            onClick={() => openModal(tool)}
-            key={tool.name}
-          >
-            <p className="text-lg">{tool.name}</p>
-          </span>
-        ))}
+      <div className="lg:flex lg:flex-row lg:gap-6">
+        <p className="lg:text-lg text-sm text-graytext">Other:</p>
+        <div className="flex flex-row gap-2">
+          {Other.map((tool) => (
+            <span
+              className="hover:text-graytext hover:cursor-pointer"
+              onClick={() => openModal(tool)}
+              key={tool.name}
+            >
+              <p className="lg:text-lg text-xs">{tool.name}</p>
+            </span>
+          ))}
+        </div>
       </div>
     </div>
   );

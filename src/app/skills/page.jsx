@@ -26,11 +26,11 @@ const SkillsPage = () => {
 
   return (
     <div>
-      <p className="text-3xl font-bold">What I know🧙</p>
-      <p className="text-sm text-graytext italic">
+      <p className="lg:text-3xl text-xl font-bold">What I know🧙</p>
+      <p className="lg:text-sm text-xs text-graytext italic mb-4 mt-2">
         Psst! Click on a specific skill for more information
       </p>
-      <p className="text-lg mt-4 mb-2">
+      <p className="text-sm lg:text-lg mt-4 mb-2">
         My most common tech stack looks like the following
       </p>
       <FrontEnd openModal={openModal} />

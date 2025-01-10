@@ -1,8 +1,8 @@
 const General = () => {
   return (
     <>
-      <p className="text-3xl font-bold">Hey, I'm Teemu 👋</p>
-      <p className="text-lg mb-6 mt-4">
+      <p className="lg:text-3xl text-xl font-bold">Hey, I'm Teemu 👋</p>
+      <p className="lg:text-lg text-sm mb-6 mt-4">
         Over the years, I've gained a{" "}
         <span className="bg-yellow-200 text-black">wealth of experiences</span>{" "}
         from studying at two universities and working in more roles than I can
@@ -18,7 +18,7 @@ const General = () => {
         </span>
         .
       </p>
-      <p className="text-lg">
+      <p className="lg:text-lg">
         As a developer, I enjoy{" "}
         <span className="bg-yellow-200 text-black">
           diving straight into the heart of programming

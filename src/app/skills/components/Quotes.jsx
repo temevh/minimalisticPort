@@ -51,11 +51,11 @@ const Quotes = () => {
       >
         {items.map((item) => (
           <div key={item.person} className="text-center p-4 ">
-            <p className="text-md">"{item.say}"</p>
-            <p className="font-bold text-gray-700 text-lg mt-2">
+            <p className="text-sm lg:text-md">"{item.say}"</p>
+            <p className="font-bold text-gray-700 text-md lg:text-lg mt-2">
               {item.person}
             </p>
-            <p className="text-gray-500 text-sm">{item.title}</p>
+            <p className="text-gray-500 text-xs lg:text-sm">{item.title}</p>
           </div>
         ))}
       </Carousel>

@@ -28,15 +28,18 @@ const FrameWorks = ({ openModal }) => {
 
   return (
     <>
-      <div className="flex flex-row gap-8">
-        <p className="text-lg text-graytext">Frameworks & Libraries:</p>
+      <div className="flex flex-row gap-4 lg:gap-8">
+        <p className="lg:text-lg text-sm text-graytext">
+          Frameworks{" "}
+          <span className="hidden lg:inline-block"> & Libraries </span>:
+        </p>
         {skills.map((skill) => (
           <span
             className="hover:text-graytext hover:cursor-pointer"
             onClick={() => openModal(skill)}
             key={skill.name}
           >
-            <p className="text-lg">{skill.name}</p>
+            <p className="lg:text-lg text-sm">{skill.name}</p>
           </span>
         ))}
       </div>
