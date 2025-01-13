@@ -19,7 +19,7 @@ export default function Home() {
 
   return (
     <div className="">
-      <div className="flex flex-row gap-2 lg:gap-10 items-center mb-6">
+      <div className="flex flex-row gap-2 lg:gap-10 items-center mb-2 lg:mb-6">
         <Picture />
         <div className="ml-4 lg:ml-0">
           <p className="text-md lg:text-2xl text-gray-400 font-bold">
@@ -45,7 +45,7 @@ export default function Home() {
             <a
               href="https://drive.google.com/file/d/1E7zyljzi5_CsHjGF4510s63GfcR8mCzs/view?usp=sharing"
               download="TeemuHamalainenResume.pdf"
-              className="text-blue-500 hover:text-graytext text-sm lg:text-xl"
+              className="text-blue-500 hover:text-graytext text-xs lg:text-xl"
               target="_blank"
               rel="noopener noreferrer"
             >

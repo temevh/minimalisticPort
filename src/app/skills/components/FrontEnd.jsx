@@ -38,7 +38,7 @@ const FrontEnd = ({ openModal }) => {
 
   return (
     <>
-      <div className="flex flex-row gap-4 lg:gap-8">
+      <div className="flex flex-row gap-3 lg:gap-8">
         <p className="lg:text-lg text-sm text-graytext">Frontend:</p>
         {skills.map((skill) => (
           <span

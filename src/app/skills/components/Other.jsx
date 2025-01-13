@@ -145,10 +145,10 @@ const Other = ({ openModal }) => {
 
   return (
     <div className="mt-4">
-      <p className="text-sm lg:text-lg lg:mt-4">Beyond the Basics</p>
+      <p className="text-sm lg:text-lg mb-1 lg:mt-4">Beyond the Basics</p>
       <div className="lg:flex lg:flex-row lg:gap-6">
         <p className="lg:text-lg text-sm text-graytext">Languages:</p>
-        <div className="flex flex-row gap-2">
+        <div className="flex flex-row gap-2 mb-1">
           {languages.map((language) => (
             <span
               className="hover:text-graytext hover:cursor-pointer"
@@ -161,7 +161,7 @@ const Other = ({ openModal }) => {
         </div>
       </div>
       <div className="flex flex-row gap-8">
-        <div className="lg:flex lg:flex-row lg:gap-6">
+        <div className="lg:flex lg:flex-row lg:gap-6 mb-1">
           <p className="lg:text-lg text-sm text-graytext">Tools:</p>
           <div className="flex flex-row gap-2">
             {Tools.map((tool) => (
@@ -176,7 +176,7 @@ const Other = ({ openModal }) => {
           </div>
         </div>
       </div>
-      <div className="lg:flex lg:flex-row lg:gap-6">
+      <div className="lg:flex lg:flex-row lg:gap-6 mb-1">
         <p className="lg:text-lg text-sm text-graytext">Design:</p>
         <div className="flex flex-row gap-2">
           {Design.map((tool) => (
@@ -190,8 +190,8 @@ const Other = ({ openModal }) => {
           ))}
         </div>
       </div>
-      <div className="lg:flex lg:flex-row lg:gap-6">
-        <p className="lg:text-lg text-sm text-graytext">Other:</p>
+      <div className="lg:flex lg:flex-row lg:gap-6 mb-1">
+        <p className="lg:text-lg text-sm text-graytext">Misc:</p>
         <div className="flex flex-row gap-2">
           {Other.map((tool) => (
             <span

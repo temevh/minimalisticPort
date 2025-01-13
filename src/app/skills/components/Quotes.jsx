@@ -50,7 +50,7 @@ const Quotes = () => {
         ssr={true}
       >
         {items.map((item) => (
-          <div key={item.person} className="text-center p-4 ">
+          <div key={item.person} className="text-center lg:p-4">
             <p className="text-sm lg:text-md">"{item.say}"</p>
             <p className="font-bold text-gray-700 text-md lg:text-lg mt-2">
               {item.person}
