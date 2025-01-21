@@ -8,7 +8,7 @@ const TopFive = () => {
     {
       field: "movies",
       headerName: "Movies",
-      width: 150,
+      width: 190,
     },
     {
       field: "sports",
@@ -73,17 +73,16 @@ const TopFive = () => {
   return (
     <>
       <p className="text-xl font-bold mt-4 ">Top 5 of 5🎈</p>
-      <p className="text-sm text-graytext">Without any real reasoning</p>
-      <p>I really got to think of something</p>
+      <p className="text-sm text-graytext mb-2">Without any real reasoning</p>
       <DataGrid
         rows={rows}
         columns={columns}
         pagination={false}
         hideFooter={true}
+        showColumnVerticalBorder={true}
+        disableColumnResize={true}
         sx={{
           boxShadow: 2,
-          border: 2,
-          borderColor: "primary.light",
           backgroundColor: "white",
           color: "black",
           "& .MuiDataGrid-cell:hover": {
@@ -92,9 +91,10 @@ const TopFive = () => {
           "& .MuiDataGrid-columnHeaders": {
             backgroundColor: "white",
             color: "black",
+            fontWeight: "bold",
           },
           "& .MuiDataGrid-row": {
-            backgroundColor: "white",
+            backgroundColor: "lightgray",
             color: "black",
           },
         }}
