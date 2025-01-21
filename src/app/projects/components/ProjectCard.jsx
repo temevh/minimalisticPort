@@ -12,7 +12,7 @@ const ProjectCard = ({ project, index }) => {
       />
       <div className="pl-4 flex-1">
         <a
-          className="font-bold text-lg lg:text-lg text-blue-500 block mb-1 text-center"
+          className="font-bold text-lg lg:text-lg text-blue-500 block mb-1 text-center lg:text-justify"
           href={project.code}
           target="_blank"
           rel="noopener noreferrer"
