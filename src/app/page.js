@@ -32,7 +32,7 @@ export default function Home() {
               Hey, I'm Teemu
             </a>
           </p>
-          <div className="text-sm lg:text-2xl font-bold text-white overflow-hidden h-6 lg:h-8">
+          <div className="text-sm lg:text-2xl font-bold text-white overflow-hidden h-10 lg:h-8">
             <span className="text-graytext">{text}</span>
             <Cursor
               cursorBlinking="true"
