@@ -3,7 +3,7 @@ import FooterSocials from "./FooterSocials";
 
 const Footer = () => {
   return (
-    <div className="pt-4 flex items-center justify-between w-full pb-4 p-4 lg:p-0">
+    <div className="pt-4 flex items-center justify-between w-full mb-6 p-4 lg:p-0">
       <p className="text-sm text-graytext mt-4">Teemu Hämäläinen</p>
       <span>
         <FooterSocials />
