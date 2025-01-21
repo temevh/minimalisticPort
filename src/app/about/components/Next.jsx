@@ -18,7 +18,7 @@ const Next = () => {
       </p>
       <a
         href="/manual"
-        className="text-blue-500 hover:text-blue-400 hover:cursor-pointer mt-8"
+        className="text-blue-500 hover:text-blue-400 hover:cursor-pointer"
       >
         {" "}
         More about me →

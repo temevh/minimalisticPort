@@ -1,22 +1,72 @@
+import { DataGrid } from "@mui/x-data-grid";
+
 const TopFive = () => {
   //Books, movies, songs, sports, foods
 
-  const stuff = [
-    { title: "Books", list: ["Dune", "Ego", "Hitchikers guide"] },
-    { title: "Movies", list: ["Dune", "Dune 2"] },
-    { title: "Sports", list: ["MMA", "Muay thai", "E-sports", ""] },
+  const columns = [
+    { field: "books", headerName: "Books", width: 150 },
     {
-      title: "Foods",
-      list: [
-        "Meatballs and mashed potatoes",
-        "Chicken nuggets",
-        "Lasagna (mom's)",
-        "",
-      ],
+      field: "movies",
+      headerName: "Movies",
+      width: 150,
     },
     {
-      title: "Operating systems",
-      list: ["Windows", "Kali Linux", "Ubuntu", "Android", "iOS"],
+      field: "sports",
+      headerName: "Sports",
+      width: 100,
+    },
+    {
+      field: "foods",
+      headerName: "Foods",
+      width: 150,
+    },
+    {
+      field: "os",
+      headerName: "Operating Systems",
+      width: 160,
+    },
+  ];
+
+  const rows = [
+    {
+      id: 1,
+      books: "Dune",
+      movies: "Prisoners",
+      sports: "MMA",
+      foods: "Meatballs and mashed potatoes",
+      os: "Windows",
+    },
+    {
+      id: 2,
+      books: "Ego",
+      movies: "Fury",
+      sports: "Muay thai",
+      foods: "Chicken nuggets",
+      os: "Kali Linux",
+    },
+    {
+      id: 3,
+      books: "Hitchikers guide to the galaxy",
+      movies: "Society of the snow",
+      sports: "Boxing",
+      foods: "Mom's spaghetti",
+      os: "Ubuntu",
+    },
+    {
+      id: 4,
+      books: "Gulag Archipelago",
+      movies: "All quiet on the western front",
+      sports: "E-sports",
+      foods: "Mudcake",
+      os: "Android",
+    },
+    {
+      id: 5,
+      books: "Fahrenheit 451",
+      movies: "The Guilty",
+      sports: "Soccer",
+      foods: "Grapes",
+      os: "macOS",
     },
   ];
 
@@ -25,6 +75,30 @@ const TopFive = () => {
       <p className="text-xl font-bold mt-4 ">Top 5 of 5🎈</p>
       <p className="text-sm text-graytext">Without any real reasoning</p>
       <p>I really got to think of something</p>
+      <DataGrid
+        rows={rows}
+        columns={columns}
+        pagination={false}
+        hideFooter={true}
+        sx={{
+          boxShadow: 2,
+          border: 2,
+          borderColor: "primary.light",
+          backgroundColor: "white",
+          color: "black",
+          "& .MuiDataGrid-cell:hover": {
+            color: "primary.main",
+          },
+          "& .MuiDataGrid-columnHeaders": {
+            backgroundColor: "white",
+            color: "black",
+          },
+          "& .MuiDataGrid-row": {
+            backgroundColor: "white",
+            color: "black",
+          },
+        }}
+      />
     </>
   );
 };
