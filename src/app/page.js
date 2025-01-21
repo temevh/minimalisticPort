@@ -43,7 +43,7 @@ export default function Home() {
           <Socials />
           <div className="lg:mt-2">
             <a
-              href="https://drive.google.com/file/d/1E7zyljzi5_CsHjGF4510s63GfcR8mCzs/view?usp=sharing"
+              href="https://drive.google.com/file/d/1c1gqHCsUephoM-4r6nbLnD5kPl6S_kJB/view?usp=sharing"
               download="TeemuHamalainenResume.pdf"
               className="text-blue-500 hover:text-graytext text-xs lg:text-xl"
               target="_blank"
