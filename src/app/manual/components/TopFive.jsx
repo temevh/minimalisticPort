@@ -4,27 +4,11 @@ const TopFive = () => {
   //Books, movies, songs, sports, foods
 
   const columns = [
-    { field: "books", headerName: "Books", width: 150 },
-    {
-      field: "movies",
-      headerName: "Movies",
-      width: 190,
-    },
-    {
-      field: "sports",
-      headerName: "Sports",
-      width: 100,
-    },
-    {
-      field: "foods",
-      headerName: "Foods",
-      width: 150,
-    },
-    {
-      field: "os",
-      headerName: "Operating Systems",
-      width: 160,
-    },
+    { field: "books", headerName: "Books", flex: 1 },
+    { field: "movies", headerName: "Movies", flex: 1 },
+    { field: "sports", headerName: "Sports", flex: 1 },
+    { field: "foods", headerName: "Foods", flex: 1 },
+    { field: "os", headerName: "Operating Systems", flex: 1 },
   ];
 
   const rows = [
