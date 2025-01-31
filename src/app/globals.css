@@ -3,20 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --background: #0c0f11;
+  --background: #0c0f11; /* Set background to black */
   --foreground: #0c0f11;
   --font-roboto-mono: "Roboto Mono", monospace;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0c0f11;
+    --background: #0c0f11; /* Ensure background remains black in dark mode */
     --foreground: #0c0f11;
   }
 }
 
 body {
   color: var(--foreground);
-  background: "";
+  background: var(--background); /* Apply the background color */
   font-family: var(--font-roboto-mono);
 }
