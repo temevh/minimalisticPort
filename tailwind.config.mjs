@@ -8,8 +8,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#0c0f11",
+        foreground: "#0c0f11",
         accentOrange: "#D16002",
         discord: "#5662f6",
         linkedin: "#0077B5",
