@@ -192,7 +192,7 @@ const Other = ({ openModal }) => {
       </div>
       <div className="lg:flex lg:flex-row lg:gap-6 mb-1">
         <p className="lg:text-lg text-sm text-graytext">Misc:</p>
-        <div className="flex flex-row gap-2">
+        <div className="flex flex-row gap-4">
           {Other.map((tool) => (
             <span
               className="hover:text-graytext hover:cursor-pointer"

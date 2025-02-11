@@ -4,7 +4,7 @@ const Acollades = () => {
       <p className="lg:text-3xl text-xl font-bold mt-2 lg:mt-4 mb-2 lg:mb-4">
         Other neat stuff
       </p>
-      <p className="lg:text-lg text-sm lg:mb-6 lg:mt-4">
+      <p className="lg:text-lg text-sm lg:mb-6 lg:mt-4 text-white">
         I have participated in multiple hackathons (
         <a
           href="https://www.hackjunction.com/"

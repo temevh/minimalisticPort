@@ -20,3 +20,11 @@ body {
   background: var(--background); /* Apply the background color */
   font-family: var(--font-roboto-mono);
 }
+
+p {
+  color: white;
+}
+
+li {
+  color: white;
+}
