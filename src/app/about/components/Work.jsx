@@ -50,6 +50,16 @@ const Work = () => {
         hired me as a software developer 💻. At Twoday, I have worked for two
         summers, plus a few miscellaneous part-time projects.
       </p>
+      <p className="lg:text-lg text-sm lg:mb-6 lg:mt-4 text-white">
+        I have also a few{" "}
+        <a
+          href="/certificates"
+          className="text-blue-500 hover:text-blue-400 hover:cursor-pointer"
+        >
+          certificates
+        </a>{" "}
+        for you to check out ;)
+      </p>
     </>
   );
 };

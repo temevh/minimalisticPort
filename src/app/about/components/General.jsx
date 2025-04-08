@@ -42,16 +42,6 @@ const General = () => {
         </span>
         .
       </p>
-      <p className="lg:text-lg text-sm lg:mb-6 lg:mt-4 text-white">
-        I have also a few{" "}
-        <a
-          href="/certificates"
-          className="text-blue-500 hover:text-blue-400 hover:cursor-pointer"
-        >
-          certificates
-        </a>{" "}
-        for you to check out ;)
-      </p>
     </>
   );
 };
