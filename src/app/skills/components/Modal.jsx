@@ -11,7 +11,7 @@ const Modal = ({ selectedSkill, closeModal }) => {
         <h2 className="lg:text-xl text-lg text-white font-bold mb-2">
           {selectedSkill.name}
         </h2>
-        <p className="lg:text-xl text-sm mb-4">{selectedSkill.desc}</p>
+        <p className="lg:text-lg text-sm mb-4">{selectedSkill.desc}</p>
       </div>
     </div>
   );

@@ -1,10 +1,10 @@
 const Acollades = () => {
   return (
     <>
-      <p className="lg:text-3xl text-xl font-bold mt-2 lg:mt-4 mb-2 lg:mb-4">
+      <p className="text-2xl font-bold mt-2 lg:mt-4 mb-2 lg:mb-4">
         Other neat stuff
       </p>
-      <p className="lg:text-lg text-sm lg:mb-6 lg:mt-4 text-white">
+      <p className="text-base lg:mb-6 lg:mt-4 text-white">
         I have participated in multiple hackathons (
         <a
           href="https://www.hackjunction.com/"
@@ -35,6 +35,16 @@ const Acollades = () => {
         in high school. I have also been active in organizations. I was a part
         of Jyväskylä's youth council, have been leading boy scout groups, and
         lately I was the vice president of the overalls team for our guild.
+      </p>
+      <p className="text-base lg:mb-6 lg:mt-4 text-white">
+        Check out my{" "}
+        <a
+          href="/certificates"
+          className="text-blue-500 hover:text-blue-400 hover:cursor-pointer"
+        >
+          professional certificates
+        </a>{" "}
+        to see my formal qualifications and achievements.
       </p>
     </>
   );

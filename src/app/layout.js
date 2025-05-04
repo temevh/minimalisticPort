@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${robotoMono.variable} lg:w-2/5 h-screen flex flex-col justify-between mx-auto`}
+        className={`${robotoMono.variable} lg:w-1/2 h-screen flex flex-col justify-between mx-auto`}
       >
         <Navbar />
         <main className="flex-1 p-4 lg:p-0">{children}</main>
