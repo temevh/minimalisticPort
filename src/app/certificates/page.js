@@ -4,19 +4,17 @@ const certificates = [
   {
     title: "Cisco CyberOps Associate",
     issuer: "Cisco",
-    date: "5/2025",
+    date: "6/2025",
     description:
       "Cybersecurity Essentials, Threats,  Operations,  Architecture, and  Engineering",
-    imageUrl: "/path-to-certificate-image.jpg",
     credentialUrl: "https://example.com/verify",
   },
   {
     title: "Cisco DevNet Associate",
     issuer: "Cisco",
-    date: "5/2025",
+    date: "6/2025",
     description: "Python, Docker, Software Development principles and DevOps",
-    imageUrl: "/path-to-certificate-image.jpg", // You'll need to add your certificate images to the public folder
-    credentialUrl: "https://example.com/verify", // Optional: Link to verify the certificate
+    credentialUrl: "https://example.com/verify",
   },
   {
     title: "Cyber security base",
@@ -24,8 +22,7 @@ const certificates = [
     date: "3/2023",
     description:
       "Cybersecurity basics with the focus being on coding and code vulnerabilities",
-    imageUrl: "/path-to-certificate-image.jpg", // You'll need to add your certificate images to the public folder
-    credentialUrl: "https://example.com/verify", // Optional: Link to verify the certificate
+    credentialUrl: "https://example.com/verify",
   },
 ];
 
@@ -37,25 +34,25 @@ export default function Certificates() {
           <h1 className="text-4xl font-bold text-white mb-8">Certificates</h1>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="gap-8">
           {certificates.map((cert, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+              className="rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
             >
-              <div className="p-6">
-                <h2 className="text-2xl font-semibold text-gray-900 mb-2">
+              <div className="p-3">
+                <h2 className="text-xl font-semibold text-white">
                   {cert.title}
                 </h2>
-                <p className="text-gray-600 mb-2">{cert.issuer}</p>
-                <p className="text-sm text-gray-500 mb-4">{cert.date}</p>
-                <p className="text-gray-700 mb-4">{cert.description}</p>
+                <p className="text-gray-600 text-sm">{cert.issuer}</p>
+                <p className="text-xs text-gray-500 mb-2">{cert.date}</p>
+                <p className="text-gray-700 text-sm mb-2">{cert.description}</p>
                 {cert.credentialUrl && (
                   <a
                     href={cert.credentialUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-blue-800 font-medium"
+                    className="text-blue-600 hover:text-blue-800 font-medium text-sm"
                   >
                     Verify Certificate →
                   </a>
