@@ -7,14 +7,14 @@ const certificates = [
     date: "June 2025",
     description:
       "Cybersecurity Essentials, Threats, Operations, Architecture, and Engineering",
-    credentialUrl: "https://example.com/verify",
+    credentialUrl: "https://drive.google.com/file/d/1Jq6R3AqHSMl7SbN4L5IxRDC05kWgU6tX/view?usp=sharing",
   },
   {
     title: "Cisco DevNet Associate",
     issuer: "Cisco",
     date: "June 2025",
     description: "Python, Docker, Software Development principles and DevOps",
-    credentialUrl: "https://example.com/verify",
+    credentialUrl: "https://drive.google.com/file/d/1YJ_r3Pkl-eUecQM0K6TcgUE6LctSubVn/view?usp=sharing",
   },
   {
     title: "Cyber security base",
@@ -83,7 +83,7 @@ export default function Certificates() {
                     d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                   />
                 </svg>
-                Verify Certificate
+                Show certificate
               </a>
             )}
           </div>
