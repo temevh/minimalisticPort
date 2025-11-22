@@ -2,39 +2,45 @@ const TLDR = () => {
   return (
     <>
       <div>
+         <p className="font-bold text-lg lg:text-2xl text-white mb-2">
+          Summary
+        </p>
+        <p className="text-graytext text-md lg:text-lg">
+          I'm an <span className="text-accentOrange">ambitious and dedicated</span> computer science student doing my{" "}
+          <span className="text-accentOrange">masters</span> while also working as a{" "}
+          <span className="text-accentOrange">full-stack developer</span>.
+          I have a lot of experience with different{" "}
+          <span className="text-accentOrange">technologies, programming languages and people</span>.
+          Currently I am focusing on improving my skills in{" "}
+          <span className="text-accentOrange">full-stack development</span> (especially React and graphql),{" "}
+          <span className="text-accentOrange">cloud technologies</span> (Google cloud) and{" "}
+          <span className="text-accentOrange">mobile development</span> (Flutter).
+        </p>
         <p className="font-bold text-lg lg:text-2xl text-white mb-2">
           Experience
         </p>
         <p className="text-graytext text-md lg:text-lg">
-          I have mostly worked as a{" "}
-          <span className="text-accentOrange">front-end developer</span> on
-          projects ranging from a simple{" "}
-          <span className="text-accentOrange">one-page demos</span> to
-          <span className="text-accentOrange"> complex data dashboards </span>
-          and
-          <span className="text-accentOrange"> full-stack applications</span>. I
-          have some <span className="text-accentOrange">backend</span>- and
-          <span className="text-accentOrange"> mobile </span> experience also,
-          alongside a few simple
-          <span className="text-accentOrange"> embedded systems </span>
-          projects.
+          I have worked mostly as a <span className="text-accentOrange">fullstack developer</span> in both{" "}
+          <span className="text-accentOrange">frontend</span> and{" "}
+          <span className="text-accentOrange">backend development</span>. 
+          I have built <span className="text-accentOrange">simple mobile apps</span> and{" "}
+          <span className="text-accentOrange">one page web applications</span> but also{" "}
+          <span className="text-accentOrange">larger scale systems</span> with{" "}
+          <span className="text-accentOrange">multiple services and databases</span>.
         </p>
       </div>
       <div>
         <p className="font-bold text-lg lg:text-2xl text-white mb-2">Skills</p>
         <p className="text-graytext text-md lg:text-lg">
-          I excel at{" "}
-          <span className="text-accentOrange">
-            {" "}
-            bridging the gap between technical and non-technical audiences
-          </span>
-          , ensuring smooth communication within diverse teams. I am highly{" "}
-          <span className="text-accentOrange">adaptable</span>, thrive in both{" "}
-          <span className="text-accentOrange">team settings</span> and{" "}
-          <span className="text-accentOrange">independent roles</span>, and am
-          always eager to <span className="text-accentOrange">support </span>
-          others and <span className="text-accentOrange">contribute</span> to
-          shared goals.
+          I am a <span className="text-accentOrange">seasoned developer</span> but i am also{" "}
+          <span className="text-accentOrange">excellent at working with other people</span>.
+          I love <span className="text-accentOrange">bridging the gap between technical and non-technical people</span>. 
+          I am comfortable working in <span className="text-accentOrange">teams</span> but can also work{" "}
+          <span className="text-accentOrange">independently</span> with no problems.
+          I am <span className="text-accentOrange">quick to learn</span> and{" "}
+          <span className="text-accentOrange">diligient</span> in my work. I{" "}
+          <span className="text-accentOrange">never miss deadlines</span> and always strive to deliver{" "}
+          <span className="text-accentOrange">high-quality work</span>.
         </p>
       </div>
       <div>
@@ -42,18 +48,8 @@ const TLDR = () => {
           Goals and Aspirations
         </p>
         <p className="text-graytext text-md lg:text-lg">
-          I am committed to{" "}
-          <span className="text-accentOrange">
-            continuous learning and growth
-          </span>{" "}
-          as a developer. My current focus is on mastering{" "}
-          <span className="text-accentOrange">full-stack development </span>
-          and staying up-to-date with the latest technologies. I aspire to
-          contribute to{" "}
-          <span className="text-accentOrange">impactful projects</span> that
-          make a difference in people's lives while expanding my expertise in
-          both <span className="text-accentOrange">front-end</span> and{" "}
-          <span className="text-accentOrange">backend development</span>.
+        I want to be the best developer I can be. This means I study new technologies and hone my skills constantly.
+        Outside of school and work I keep on studying, building, attending and improving.
         </p>
       </div>
     </>
