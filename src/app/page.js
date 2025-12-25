@@ -55,13 +55,13 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <DoingRn />
       <p className="lg:text-2xl text-lg font-bold text-graytext">
         A quick TL;DR of me!
       </p>
       <p className="lg:text-sm text-xs text-gray-700">
         since I know you are busy ;)
       </p>
+      <DoingRn />
       <div className="mt-4 flex flex-col gap-4" id="tldrdiv">
         <TLDR />
         <p className="text-white text-sm lg:text-lg">
