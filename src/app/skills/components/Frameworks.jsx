@@ -24,6 +24,10 @@ const FrameWorks = ({ openModal }) => {
       name: "Next.Js",
       desc: "I have started to prefer NextJs as my framework for projects that are bigger than a single page. One thing which I dislike about Next though is the changes between updates.",
     },
+    {name: "GrahpQL",
+     desc: "I am currently learning how to use GraphQL with Apollo client and server. I am using it in my personal projects and also at work at the moment."
+    },
+
   ];
 
   return (

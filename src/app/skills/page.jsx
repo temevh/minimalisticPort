@@ -8,6 +8,7 @@ import {
   Modal,
   Features,
   Quotes,
+  Hosting
 } from "./components";
 
 const SkillsPage = () => {
@@ -36,6 +37,7 @@ const SkillsPage = () => {
       <FrontEnd openModal={openModal} />
       <BackEnd openModal={openModal} />
       <FrameWorks openModal={openModal} />
+      <Hosting openModal={openModal}/>
       <Other openModal={openModal} />
       {/* <Features />*/}
       <Quotes />

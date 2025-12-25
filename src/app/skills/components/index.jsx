@@ -5,5 +5,6 @@ import Other from "./Other";
 import Modal from "./Modal";
 import Features from "./Features";
 import Quotes from "./Quotes";
+import Hosting from "./Hosting";
 
-export { FrontEnd, BackEnd, FrameWorks, Other, Modal, Features, Quotes };
+export { FrontEnd, BackEnd, FrameWorks, Other, Modal, Features, Quotes, Hosting };
