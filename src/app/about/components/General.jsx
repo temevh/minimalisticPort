@@ -33,7 +33,7 @@ const General = () => {
         <span className="bg-yellow-200 text-black">
           cloud technologies, mobile development and project management
         </span>
-        , gradually incorporating them into my schedule. 
+        , gradually incorporating them into my schedule.
       </p>
     </>
   );

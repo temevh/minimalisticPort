@@ -34,7 +34,8 @@ const Acollades = () => {
         </a>{" "}
         in high school. I have also been active in organizations. I was a part
         of Jyväskylä's youth council, have been leading boy scout groups, and
-        lately I was the vice president of the overalls team for our guild and currently I am working in the board of my guild as the übertutor.
+        lately I was the vice president of the overalls team for our guild and
+        currently I am working in the board of my guild as the übertutor.
       </p>
       <p className="text-base lg:mb-6 lg:mt-4 text-white">
         Check out my{" "}
