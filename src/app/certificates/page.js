@@ -24,7 +24,6 @@ const certificates = [
     date: "March 2023",
     description:
       "Cybersecurity basics with the focus being on coding and code vulnerabilities",
-    credentialUrl: "https://example.com/verify",
   },
 ];
 

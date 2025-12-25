@@ -3,18 +3,42 @@ import { ProjectCard, SecondaryProjectCard } from "./components";
 const ProjectsPage = () => {
   const projectsPrimary = [
     {
+      title: "HelpNow",
+      desc: "HelpNow is a platform connecting volunteers with those in need of assistance, facilitating community support through easy-to-use tools.",
+      tags: ["React", "Next.js", "Prisma", "PostgreSQL", "ChakraUI", "Google cloud"],
+      img: "https://i.ibb.co/CpLxDYsN/helpnow.png",
+      code: "https://github.com/temevh/helpnow",
+    },
+    {
+      title: "MyGraine",
+      desc: "Personalized migraine prevention, detection and treatment",
+      tags: ["React Native",  "AI", "Cloud"],
+      img: "https://i.ibb.co/Xf1NpmLm/mygraine.png",
+      code: "https://github.com/temevh/AavaPfizer/tree/release",
+    },
+    {
+      title: "Kursari",
+      desc: "Kursari is a platform where users can anonymously review and rate university courses",
+      tags: ["React", "Next.js", "Prisma", "PostgreSQL", "shadcn", "LLM"],
+      img: "",
+      code: "https://github.com/temevh/some",
+    },
+    {
+      title: "Betterbrain",
+      desc: "Get a personalized task every day, based on the skills and areas of life that you wish to improve on.",
+      tags: ["Dart", "Flutter", "Mobile", "Firebase"],
+      img:"https://i.ibb.co/mFgwZYCb/bb.png" ,
+      code: "https://github.com/temevh/betterbrain",
+    },
+  ];
+
+  const secondaryProjects = [
+    {
       title: "Tuuraaja",
       desc: "Tuuraaja is a full-stack app made to make it easier for schools to find and contact substitutes on a short notice. The substitute candidates select the days on which they are available and what subjects they are able to teach. ",
       tags: ["React", "Next.js", "MongoDB", "TailwindCSS"],
       img: "https://i.ibb.co/TKBdJH4/tuuraaja.jpg",
       code: "https://github.com/temevh/tuuraaja",
-    },
-    {
-      title: "Maltas data dashboard",
-      desc: "A full-stack dashboard application for healthcare professionals. The dashboard shows data related to the hand washing in a selected unit (hospital, operating room etc.)",
-      tags: ["React", "Typescript", "Node.js", "Next.js"],
-      img: "https://monday.com/blog/wp-content/uploads/2022/03/Untitled-188.png",
-      code: "https://github.com/PROJ-A2023-G08/maltas-data-dashboard",
     },
     {
       title: "Valuemap",
@@ -23,16 +47,6 @@ const ProjectsPage = () => {
       img: "https://i.ibb.co/XWrHknw/vm3.png",
       code: "https://github.com/temevh/valuework",
     },
-    {
-      title: "Outhere",
-      desc: "A mobile app made with Dart and Flutter which gives the user a task to complete every day. Goal is for the user to improve in one category every day (for example sociability, learning or concentration). Very much still a work in progress!",
-      tags: ["Dart", "Flutter", "Mobile"],
-      img: "https://user-images.githubusercontent.com/96690178/264060743-53ccea43-4be3-426c-9f78-1f6a67245932.jpg",
-      code: "https://github.com/temevh/outhere",
-    },
-  ];
-
-  const secondaryProjects = [
     {
       title: "Arduino alarm system",
       desc: "A fairly complex alarm system made with two Arduino boards which are connected with USART. The movement sensor waits for movements and triggers an alarm protocol when triggered",
