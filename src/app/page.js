@@ -1,6 +1,7 @@
 "use client";
 import { Picture, Socials, TLDR } from "./components";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import DoingRn from "./components/DoingRn";
 
 export default function Home() {
   const [text] = useTypewriter({
@@ -60,6 +61,7 @@ export default function Home() {
       <p className="lg:text-sm text-xs text-gray-700">
         since I know you are busy ;)
       </p>
+      <DoingRn />
       <div className="mt-4 flex flex-col gap-4" id="tldrdiv">
         <TLDR />
         <p className="text-white text-sm lg:text-lg">

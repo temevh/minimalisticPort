@@ -7,14 +7,16 @@ const certificates = [
     date: "June 2025",
     description:
       "Cybersecurity Essentials, Threats, Operations, Architecture, and Engineering",
-    credentialUrl: "https://drive.google.com/file/d/1Jq6R3AqHSMl7SbN4L5IxRDC05kWgU6tX/view?usp=sharing",
+    credentialUrl:
+      "https://drive.google.com/file/d/1Jq6R3AqHSMl7SbN4L5IxRDC05kWgU6tX/view?usp=sharing",
   },
   {
     title: "Cisco DevNet Associate",
     issuer: "Cisco",
     date: "June 2025",
     description: "Python, Docker, Software Development principles and DevOps",
-    credentialUrl: "https://drive.google.com/file/d/1YJ_r3Pkl-eUecQM0K6TcgUE6LctSubVn/view?usp=sharing",
+    credentialUrl:
+      "https://drive.google.com/file/d/1YJ_r3Pkl-eUecQM0K6TcgUE6LctSubVn/view?usp=sharing",
   },
   {
     title: "Cyber security base",
@@ -22,7 +24,6 @@ const certificates = [
     date: "March 2023",
     description:
       "Cybersecurity basics with the focus being on coding and code vulnerabilities",
-    credentialUrl: "https://example.com/verify",
   },
 ];
 
@@ -54,15 +55,15 @@ export default function Certificates() {
                 </p>
               </div>
             </div>
-            
+
             <p className="text-xs lg:text-sm text-graytext mb-3">
               📅 {cert.date}
             </p>
-            
+
             <p className="text-sm lg:text-base text-white mb-4">
               {cert.description}
             </p>
-            
+
             {cert.credentialUrl && (
               <a
                 href={cert.credentialUrl}

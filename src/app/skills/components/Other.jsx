@@ -96,10 +96,6 @@ const Other = ({ openModal }) => {
       desc: "I have a solid understanding of containerization concepts, including how containers work and when they are most effective. My experience includes creating and adjusting Docker scripts for small-scale projects.",
     },
     {
-      name: "PostgreSQL",
-      desc: "I have practical experience working with SQL databases, gained through academic coursework, smaller projects, and personal endeavors. PostgreSQL is a tool I appreciate for its robustness and versatility.",
-    },
-    {
       name: "Heroku",
       desc: "Heroku is my go-to platform for hosting and deploying backend functionality. I appreciate its simplicity, built-in support for various programming languages, and ability to quickly scale applications. Also I like how the CLI is fairly simple and straightforward to use.",
     },
