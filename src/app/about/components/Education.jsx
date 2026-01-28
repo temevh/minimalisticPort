@@ -36,7 +36,26 @@ const Education = () => {
         >
           University of Tampere (TUNI)
         </a>
-        , with the main focus still on software engineering.
+        , with the main focus still on software engineering. I did a bachelor's
+        thesis on{" "}
+        <a
+          href="https://trepo.tuni.fi/handle/10024/225371"
+          className="text-blue-500 hover:text-blue-400 hover:cursor-pointer"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Microsofts AI services and their usability in software development.
+        </a>
+        I also studied for a semester in South-Korea's{" "}
+        <a
+          href="https://eng.inha.ac.kr/eng/index.do"
+          className="text-blue-500 hover:text-blue-400 hover:cursor-pointer"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Inha university
+        </a>
+        , with a focus on on business and software development.
       </p>
     </>
   );

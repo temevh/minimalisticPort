@@ -5,7 +5,7 @@ const General = () => {
       <p className="lg:text-lg text-sm mb-6 mt-4">
         Over the years, I've gained a{" "}
         <span className="bg-yellow-200 text-black">wealth of experiences</span>{" "}
-        from studying at two universities and working in more roles than I can
+        from studying in three universities and working in more roles than I can
         count on one hand . Currently, I'm focused on{" "}
         <span className="bg-yellow-200 text-black">
           advancing my computer science studies
@@ -16,7 +16,8 @@ const General = () => {
         <span className="bg-yellow-200 text-black">
           passion for development
         </span>
-        .
+        . While also working part-time as a{" "}
+        <span className="bg-yellow-200 text-black">software developer</span>.
       </p>
       <p className="lg:text-lg">
         As a developer, I enjoy{" "}
@@ -30,17 +31,9 @@ const General = () => {
         in my projects, aiming to make them both efficient and user-friendly.
         I'm also eager to expand my skills in{" "}
         <span className="bg-yellow-200 text-black">
-          machine learning and cybersecurity
+          cloud technologies, mobile development and project management
         </span>
-        , gradually incorporating them into my schedule. If you're wondering
-        about the{" "}
-        <span className="bg-yellow-200 text-black">"¾-stack developer"</span> on
-        the landing page—it's my way of saying I'm on the journey to becoming a
-        full-stack developer. Not quite there yet, but I'm{" "}
-        <span className="bg-yellow-200 text-black">
-          getting closer every day
-        </span>
-        .
+        , gradually incorporating them into my schedule.
       </p>
     </>
   );

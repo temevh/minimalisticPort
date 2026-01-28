@@ -1,12 +1,13 @@
 "use client";
 import { Picture, Socials, TLDR } from "./components";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import DoingRn from "./components/DoingRn";
 
 export default function Home() {
   const [text] = useTypewriter({
     words: [
-      "Computer science student.",
-      "¾-stack developer.",
+      "CS student.",
+      "Full-stack developer.",
       "Seasoned entrepreneur.",
       "Fitness enthusiast.",
       "Full-time nerd.",
@@ -22,7 +23,7 @@ export default function Home() {
       <div className="flex flex-row gap-2 lg:gap-10 items-center mb-2 lg:mb-6">
         <Picture />
         <div className="ml-4 lg:ml-0">
-          <p className="text-md lg:text-2xl text-gray-400 font-bold">
+          <p className="text-md lg:text-xl text-gray-400 font-bold">
             <a
               className="text-white hover:text-blue-500 hover:cursor-pointer"
               href="/about"
@@ -32,7 +33,7 @@ export default function Home() {
               Hey, I'm Teemu
             </a>
           </p>
-          <div className="text-sm lg:text-2xl font-bold text-white overflow-hidden h-10 lg:h-8">
+          <div className="text-sm lg:text-xl font-bold text-white overflow-hidden h-6">
             <span className="text-graytext">{text}</span>
             <Cursor
               cursorBlinking="true"
@@ -45,7 +46,7 @@ export default function Home() {
             <a
               href="https://drive.google.com/file/d/1c1gqHCsUephoM-4r6nbLnD5kPl6S_kJB/view?usp=sharing"
               download="TeemuHamalainenResume.pdf"
-              className="text-blue-500 hover:text-graytext text-xs lg:text-xl"
+              className="text-blue-500 hover:text-graytext text-xs lg:text-lg"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -60,6 +61,7 @@ export default function Home() {
       <p className="lg:text-sm text-xs text-gray-700">
         since I know you are busy ;)
       </p>
+      <DoingRn />
       <div className="mt-4 flex flex-col gap-4" id="tldrdiv">
         <TLDR />
         <p className="text-white text-sm lg:text-lg">

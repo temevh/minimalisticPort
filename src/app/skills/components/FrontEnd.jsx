@@ -27,12 +27,12 @@ const FrontEnd = ({ openModal }) => {
       ],
     },
     {
-      name: "Javascript",
-      desc: "I use Javascript alongside React in my projects and sometimes create simple scripts with it.",
+      name: "Typescript",
+      desc: "Typescript has become my favourite language with anything frontend related. I use it at work and with my personal projects.",
     },
     {
       name: "HTML/CSS",
-      desc: "I try to use pure HTML element as much as possible. Even though I prefer TailwindCSS, sometimes I use vanilla CSS for small adjustments.",
+      desc: "Even though I prefer TailwindCSS or other modern styling libraries, sometimes I prefer to use vanilla CSS to reduce overhead. HTML i regularly use with react (or just by itself)",
     },
   ];
 
