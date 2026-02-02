@@ -44,7 +44,7 @@ export default function Home() {
           <Socials />
           <div className="lg:mt-2">
             <a
-              href="https://drive.google.com/file/d/1c1gqHCsUephoM-4r6nbLnD5kPl6S_kJB/view?usp=sharing"
+              href="https://drive.google.com/file/d/1wcdlA5VtSQYJgCmGdsCDkf6AcvXDcSKL/view"
               download="TeemuHamalainenResume.pdf"
               className="text-blue-500 hover:text-graytext text-xs lg:text-lg"
               target="_blank"
@@ -61,7 +61,7 @@ export default function Home() {
       <p className="lg:text-sm text-xs text-gray-700">
         since I know you are busy ;)
       </p>
-      <DoingRn />
+      {/* <DoingRn />*/}
       <div className="mt-4 flex flex-col gap-4" id="tldrdiv">
         <TLDR />
         <p className="text-white text-sm lg:text-lg">
