@@ -16,28 +16,20 @@ const TLDR = () => {
           . Currently I am focusing on improving my skills in{" "}
           <span className="text-accentOrange">full-stack development</span>{" "}
           (especially React and graphql),{" "}
-          <span className="text-accentOrange">cloud technologies</span> (Google
-          cloud) and{" "}
-          <span className="text-accentOrange">mobile development</span>{" "}
-          (Flutter).
+          <span className="text-accentOrange">cloud technologies</span> (AWS)
+          and <span className="text-accentOrange">mobile development</span>{" "}
+          (React Native).
         </p>
         <p className="font-bold text-lg lg:text-2xl text-white mb-2">
           Experience
         </p>
         <p className="text-graytext text-md lg:text-lg">
           I have worked mostly as a{" "}
-          <span className="text-accentOrange">fullstack developer</span> in both{" "}
-          <span className="text-accentOrange">frontend</span> and{" "}
-          <span className="text-accentOrange">backend development</span>. I have
-          built <span className="text-accentOrange">simple mobile apps</span>{" "}
-          and{" "}
-          <span className="text-accentOrange">one page web applications</span>{" "}
-          but also{" "}
-          <span className="text-accentOrange">larger scale systems</span> with{" "}
-          <span className="text-accentOrange">
-            multiple services and databases
-          </span>
-          .
+          <span className="text-accentOrange">fullstack developer</span> but
+          also have worked as a <span className="text-accentOrange">mobile developer</span>. I have experience building
+          <span className="text-accentOrange"> large scale fullstack projects</span> but also <span className="text-accentOrange">simple one page applications</span>.
+          I have built and <span className="text-accentOrange">deployed multiple mobile apps</span> and constantly work on
+          <span className="text-accentOrange"> personal projects</span> .
         </p>
       </div>
       <div>
@@ -68,9 +60,9 @@ const TLDR = () => {
           Goals and Aspirations
         </p>
         <p className="text-graytext text-md lg:text-lg">
-          I want to be the best developer I can be. This means I study new
-          technologies and hone my skills constantly. Outside of school and work
-          I keep on studying, building, attending and improving.
+          I want to be the <span className="text-accentOrange">best developer</span> I can be. This means I <span className="text-accentOrange">study new
+          technologies</span> and <span className="text-accentOrange">hone my skills</span> constantly. Outside of school and work
+          I keep on <span className="text-accentOrange">studying, building, attending and improving</span>.
         </p>
       </div>
     </>

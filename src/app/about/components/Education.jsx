@@ -46,7 +46,7 @@ const Education = () => {
         >
           Microsofts AI services and their usability in software development.
         </a>
-        I also studied for a semester in South-Korea's{" "}
+        {" "}I also studied for a semester in South-Korea's{" "}
         <a
           href="https://eng.inha.ac.kr/eng/index.do"
           className="text-blue-500 hover:text-blue-400 hover:cursor-pointer"
@@ -55,7 +55,7 @@ const Education = () => {
         >
           Inha university
         </a>
-        , with a focus on on business and software development.
+        , with a focus on business and software development.
       </p>
     </>
   );

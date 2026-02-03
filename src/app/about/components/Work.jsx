@@ -49,7 +49,7 @@ const Work = () => {
         </a>{" "}
         hired me as a software developer 💻. At Twoday, I have worked on and off
         for close to three years now, doing mostly frontend and mobile
-        development with a bit of backend
+        development with a bit of backend.
       </p>
       <p className="lg:text-lg text-sm lg:mb-6 lg:mt-4 text-white">
         I have also a few{" "}
