@@ -6,9 +6,9 @@ export const experience = [
     url: "https://www.saab.com/",
     role: "Junior Software Engineer",
     start: "May 2026",
-    end: "???",
+    end: "Present",
     summary:
-      "Working as a software engineer at Saab Finland. Cant really talk much about this lol",
+      "Working as a software engineer at Saab Finland. Details of the work are confidential.",
     highlights: [],
     tags: [],
   },
@@ -37,8 +37,8 @@ export const experience = [
   },
   {
     company: "Telia Finland Oyj",
-    url: "telia.fi",
-    role: "Technical specialist ",
+    url: "https://www.telia.fi/",
+    role: "Technical specialist",
     start: "May 2022",
     end: "September 2022",
     summary:

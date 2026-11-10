@@ -3,7 +3,7 @@ const Accent = ({ children }) => (
 );
 
 const facts = [
-  { big: "5+ years", small: "professional experience" },
+  { big: "4+ years", small: "professional experience" },
   { big: "Full-stack", small: "TypeScript, Node.js, PostgreSQL, CI/CD" },
   { big: "Any team size", small: "multi-team projects to solo" },
 ];
@@ -23,17 +23,16 @@ const Summary = () => {
       <h2 className="font-bold text-lg lg:text-2xl text-white mb-1">Summary</h2>
       <p className="text-graytext text-md lg:text-lg">
         I'm a <Accent>full-stack developer</Accent> with{" "}
-        <Accent>5+ years of professional experience</Accent> building web and
+        <Accent>4+ years of professional experience</Accent> building web and
         mobile applications, first as a consultant at Twoday and now as a junior
-        software engineer at Saab Finland. I work currently mostly with{" "}
-        <Accent>Modern web technologies</Accent> such as{" "}
-        <Accent>Vue, PostgreSQL, Nest.js</Accent> and{" "}
-        <Accent> Express.js</Accent>.Currently I am also putting more focus into{" "}
-        <Accent>architecture</Accent>, <Accent>CI/CD</Accent>,{" "}
-        <Accent>architecture</Accent> and <Accent>cloud </Accent> that gets it
-        to production. I also build with <Accent>AI</Accent> and{" "}
-        <Accent> agents</Accent>, and wrote my bachelor's{" "}
-        <Accent>thesis on AI in software development.</Accent>
+        software engineer at Saab Finland. I currently work mostly with modern
+        web technologies such as{" "}
+        <Accent>Vue, React, TypeScript, Node.js (Nest.js and Express.js)</Accent>{" "}
+        and <Accent>PostgreSQL</Accent>. I'm also putting more focus on{" "}
+        <Accent>architecture</Accent>, <Accent>CI/CD</Accent> and{" "}
+        <Accent>cloud</Accent>, the parts that get software to production. I
+        also build with <Accent>AI and agents</Accent>, and wrote my bachelor's{" "}
+        <Accent>thesis on AI in software development</Accent>.
       </p>
       <p className="text-graytext text-md lg:text-lg mt-3">
         I'm happiest in a team: I'm comfortable <Accent>taking the lead</Accent>{" "}

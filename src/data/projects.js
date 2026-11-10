@@ -2,6 +2,14 @@
 // `img` is optional. `demo` (live link) is optional and is shown when present.
 export const projectsPrimary = [
   {
+    title: "Devdoomscroll",
+    desc: "A post aggregator for developers. One stop shop for posts regarding selected interests across different platforms",
+    tags: ["Vue", "Supabase", "Express.js", "CI/CD"],
+    img: "https://i.ibb.co/ccSJLxdc/devdoomscroll.png",
+    code: "https://github.com/temevh/devdoomscroll",
+    demo: "https://google.com",
+  },
+  {
     title: "HelpNow",
     desc: "HelpNow is a platform connecting volunteers with those in need of assistance, facilitating community support through easy-to-use tools.",
     tags: [
@@ -33,18 +41,19 @@ export const projectsPrimary = [
     title: "Tuuraaja",
     desc: "Tuuraaja is a full-stack app made to make it easier for schools to find and contact substitutes on a short notice. The substitute candidates select the days on which they are available and what subjects they are able to teach. ",
     tags: ["Vue", "Nuxt", "Supabase"],
+    img: "https://i.ibb.co/N6VfT2F6/tuuraaja.png",
     code: "https://github.com/temevh/tuuraaja-vue",
-  },
-  {
-    title: "Kursari",
-    desc: "Kursari is a platform where users can anonymously review and rate university courses (not yet released)",
-    tags: ["React", "Next.js", "Prisma", "PostgreSQL", "shadcn", "LLM"],
-    img: "",
-    code: "https://github.com/temevh/some",
+    demo: "https://tuuraaja-vue.vercel.app/",
   },
 ];
 
 export const projectsSecondary = [
+  {
+    title: "Kursari",
+    desc: "Kursari is a platform where users can anonymously review and rate university courses (not yet released)",
+    tags: ["React", "Next.js", "Prisma", "PostgreSQL", "shadcn", "LLM"],
+    code: "https://github.com/temevh/some",
+  },
   {
     title: "Valuemap",
     desc: "Valuemap matches job seekers with companies based on shared values, believes and needs. Made for Junction hackathon 2024 ",

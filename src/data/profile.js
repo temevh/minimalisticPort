@@ -9,5 +9,5 @@ export const profile = {
     "https://drive.google.com/file/d/1wcdlA5VtSQYJgCmGdsCDkf6AcvXDcSKL/view",
   headline: "Full-stack software engineer",
   description:
-    "Full-stack software engineer with 3+ years of professional experience in React, Vue, TypeScript and Node.js. Portfolio, projects, skills and writing by Teemu Hämäläinen.",
+    "Full-stack software engineer with 4+ years of professional experience in Vue, React, TypeScript and Node.js. Portfolio, projects, skills and writing by Teemu Hämäläinen.",
 };

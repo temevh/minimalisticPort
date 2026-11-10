@@ -41,6 +41,8 @@ export const skillGroups = [
       "APIs and data layers that are simple to reason about and to change.",
     skills: [
       { name: "Node.js", level: "core" },
+      { name: "Nest.js", level: "solid" },
+      { name: "Express.js", level: "solid" },
       { name: "REST & GraphQL APIs", level: "core" },
       { name: "PostgreSQL", level: "core" },
       { name: "Python", level: "solid" },
