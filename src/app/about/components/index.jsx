@@ -1,7 +1,7 @@
-import Work from "./Work";
+import Experience from "./Experience";
 import General from "./General";
 import Education from "./Education";
 import Next from "./Next";
-import Acollades from "./Acollades";
+import Community from "./Community";
 
-export { Work, General, Education, Next, Acollades };
+export { Experience, General, Education, Next, Community };

@@ -1,0 +1,63 @@
+const tierStyles = {
+  core: "border-accentOrange text-white",
+  solid: "border-gray-500 text-white",
+  basic: "border-gray-700 border-dashed text-graytext",
+};
+
+export const SkillGroup = ({ group }) => (
+  <section id={group.id} className="scroll-mt-6">
+    <h2 className="text-lg lg:text-xl font-bold text-white">{group.title}</h2>
+    <p className="text-xs lg:text-sm text-graytext mt-1 mb-3">{group.blurb}</p>
+    <ul className="flex flex-wrap gap-2">
+      {group.skills.map((skill) => (
+        <li
+          key={skill.name}
+          className={`rounded-md border px-2 py-1 text-xs lg:text-sm ${tierStyles[skill.level]}`}
+        >
+          {skill.name}
+          {skill.note && (
+            <span className="text-graytext"> · {skill.note}</span>
+          )}
+        </li>
+      ))}
+    </ul>
+  </section>
+);
+
+export const TierLegend = ({ levels }) => (
+  <ul className="flex flex-wrap gap-x-4 gap-y-2 text-xs text-graytext">
+    {Object.entries(levels).map(([key, level]) => (
+      <li key={key} className="flex items-center gap-2 text-graytext">
+        <span
+          className={`inline-block h-3 w-5 rounded-sm border ${tierStyles[key]}`}
+          aria-hidden="true"
+        />
+        {level.label}
+        <span className="hidden lg:inline">({level.hint})</span>
+      </li>
+    ))}
+  </ul>
+);
+
+export const PeopleSkills = ({ items }) => (
+  <section id="people" className="scroll-mt-6">
+    <h2 className="text-lg lg:text-xl font-bold text-white">
+      People & leadership
+    </h2>
+    <p className="text-xs lg:text-sm text-graytext mt-1 mb-3">
+      The part of the job that does not show up in a tech stack.
+    </p>
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
+      {items.map((item) => (
+        <div
+          key={item.title}
+          className="rounded-lg border border-gray-800 bg-gray-900 p-3 lg:p-4"
+        >
+          <h3 className="font-bold text-accentOrange">{item.title}</h3>
+          <p className="text-sm text-white mt-1">{item.text}</p>
+          <p className="text-xs text-graytext mt-2">{item.evidence}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+);

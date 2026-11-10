@@ -16,7 +16,8 @@
 }
 
 body {
-  color: var(--foreground);
+  /* Light text on the dark background so headings, quotes etc. are readable by default */
+  color: #ffffff;
   background: var(--background); /* Apply the background color */
   font-family: var(--font-roboto-mono);
 }

@@ -3,12 +3,13 @@ import Image from "next/image";
 
 const Picture = () => {
   return (
-    <div className="rounded-full overflow-hidden border-2 border-accentOrange">
+    <div className="rounded-full overflow-hidden border-2 border-accentOrange shrink-0">
       <Image
         src={headshot}
         width={180}
-        alt="My headshot picture"
-        quality={100}
+        alt="Headshot of Teemu Hämäläinen"
+        quality={90}
+        priority
       />
     </div>
   );

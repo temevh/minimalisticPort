@@ -1,50 +1,39 @@
-"use client";
-import { useState } from "react";
-import {
-  FrontEnd,
-  BackEnd,
-  FrameWorks,
-  Other,
-  Modal,
-  Features,
-  Quotes,
-  Hosting
-} from "./components";
+import { skillGroups, skillLevels, peopleSkills } from "@/data/skills";
+import { SkillGroup, TierLegend, PeopleSkills } from "./components/SkillGroup";
+
+export const metadata = {
+  title: "Skills",
+  description:
+    "Frontend (React, Vue, TypeScript), backend, architecture and DevOps (CI/CD, Terraform, Ansible, nginx), AI and agents, mobile, and people skills.",
+};
 
 const SkillsPage = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [selectedSkill, setSelectedSkill] = useState(null);
-
-  const openModal = (skill) => {
-    setSelectedSkill(skill);
-    setIsModalOpen(true);
-  };
-
-  const closeModal = () => {
-    setSelectedSkill(null);
-    setIsModalOpen(false);
-  };
+  const mainGroups = skillGroups.slice(0, 4);
+  const otherGroups = skillGroups.slice(4);
 
   return (
-    <div>
-      <p className="lg:text-3xl text-xl font-bold">What I know🧙</p>
-      <p className="lg:text-sm text-xs text-graytext italic mb-4 mt-2">
-        Psst! Click on a specific skill for more information
-      </p>
-      <p className="text-sm lg:text-lg mt-4 mb-2">
-        My most common tech stack looks like the following
-      </p>
-      <FrontEnd openModal={openModal} />
-      <BackEnd openModal={openModal} />
-      <FrameWorks openModal={openModal} />
-      <Hosting openModal={openModal}/>
-      <Other openModal={openModal} />
-      {/* <Features />*/}
-      <Quotes />
-      {isModalOpen && (
-        <Modal selectedSkill={selectedSkill} closeModal={closeModal} />
-      )}
+    <div className="flex flex-col gap-6">
+      <div>
+        <h1 className="lg:text-3xl text-xl font-bold">What I know 🧙</h1>
+        <p className="lg:text-sm text-xs text-graytext italic mt-2 mb-3">
+          Grouped by area, with how much I use each skill.
+        </p>
+        <TierLegend levels={skillLevels} />
+      </div>
+
+      {mainGroups.map((group) => (
+        <SkillGroup key={group.id} group={group} />
+      ))}
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        {otherGroups.map((group) => (
+          <SkillGroup key={group.id} group={group} />
+        ))}
+      </div>
+
+      <PeopleSkills items={peopleSkills} />
     </div>
   );
 };
+
 export default SkillsPage;

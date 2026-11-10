@@ -1,41 +1,30 @@
+const Mark = ({ children }) => (
+  <span className="bg-yellow-200 text-black">{children}</span>
+);
+
 const General = () => {
   return (
-    <>
-      <p className="lg:text-3xl text-xl font-bold">Hey, I'm Teemu 👋</p>
+    <section>
+      <h1 className="lg:text-3xl text-xl font-bold">Hey, I'm Teemu 👋</h1>
       <p className="lg:text-lg text-sm mb-6 mt-4">
-        Over the years, I've gained a{" "}
-        <span className="bg-yellow-200 text-black">wealth of experiences</span>{" "}
-        from studying in three universities and working in more roles than I can
-        count on one hand . Currently, I'm focused on{" "}
-        <span className="bg-yellow-200 text-black">
-          advancing my computer science studies
-        </span>{" "}
-        while <span className="bg-yellow-200 text-black">building</span>{" "}
-        personal <span className="bg-yellow-200 text-black">projects</span> that
-        fuel my{" "}
-        <span className="bg-yellow-200 text-black">
-          passion for development
-        </span>
-        . While also working part-time as a{" "}
-        <span className="bg-yellow-200 text-black">software developer</span>.
+        Over the years, I've gained a <Mark>wealth of experiences</Mark> from
+        studying in three universities and working in more roles than I can
+        count on one hand. Currently, I'm working as a{" "}
+        <Mark>junior software engineer at Saab Finland</Mark>, after{" "}
+        <Mark>three years as a full-stack consultant at Twoday</Mark>. Alongside
+        work I keep <Mark>building personal projects</Mark> that fuel my{" "}
+        <Mark>passion for development</Mark>.
       </p>
       <p className="lg:text-lg">
         As a developer, I enjoy{" "}
-        <span className="bg-yellow-200 text-black">
-          diving straight into the heart of programming
-        </span>
-        . Lately, I've been dedicating more attention to{" "}
-        <span className="bg-yellow-200 text-black">
-          modularity and responsiveness
-        </span>{" "}
-        in my projects, aiming to make them both efficient and user-friendly.
-        I'm also eager to expand my skills in{" "}
-        <span className="bg-yellow-200 text-black">
-          cloud technologies, mobile development and project management
-        </span>
-        , gradually incorporating them into my schedule.
+        <Mark>diving straight into the heart of programming</Mark>. Lately, I've
+        been dedicating more attention to{" "}
+        <Mark>architecture, modularity and responsiveness</Mark> in my projects,
+        aiming to make them both efficient and user-friendly. I'm also eager to
+        grow my skills in <Mark>cloud technologies, AI and agents</Mark> and{" "}
+        <Mark>technical leadership</Mark>.
       </p>
-    </>
+    </section>
   );
 };
 

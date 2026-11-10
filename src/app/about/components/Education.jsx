@@ -1,14 +1,18 @@
+import Link from "next/link";
+
+const linkClass = "text-blue-500 hover:text-blue-400 hover:cursor-pointer";
+
 const Education = () => {
   return (
-    <>
-      <p className="lg:text-3xl text-xl font-bold mt-2 lg:mt-4 mb-2 lg:mb-4">
+    <section>
+      <h2 className="lg:text-3xl text-xl font-bold mb-2 lg:mb-4">
         Education 👨‍🎓
-      </p>
-      <p className="lg:text-lg text-sm lg:mb-6 lg:mt-4">
+      </h2>
+      <p className="lg:text-lg text-sm">
         After primary school I went to a local{" "}
         <a
           href="https://www.gradia.fi/jyvaskylan-lyseon-lukio-lukiolinja/l16691"
-          className="text-blue-500 hover:text-blue-400 hover:cursor-pointer"
+          className={linkClass}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -18,7 +22,7 @@ const Education = () => {
         As soon as possible I started my computer science degree at the{" "}
         <a
           href="https://www.lut.fi/en"
-          className="text-blue-500 hover:text-blue-400 hover:cursor-pointer"
+          className={linkClass}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -30,26 +34,17 @@ const Education = () => {
         on I have studied computer science at the{" "}
         <a
           href="https://www.tuni.fi/en"
-          className="text-blue-500 hover:text-blue-400 hover:cursor-pointer"
+          className={linkClass}
           target="_blank"
           rel="noopener noreferrer"
         >
           University of Tampere (TUNI)
         </a>
-        , with the main focus still on software engineering. I did a bachelor's
-        thesis on{" "}
-        <a
-          href="https://trepo.tuni.fi/handle/10024/225371"
-          className="text-blue-500 hover:text-blue-400 hover:cursor-pointer"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Microsofts AI services and their usability in software development.
-        </a>
-        {" "}I also studied for a semester in South-Korea's{" "}
+        , with the main focus still on software engineering. I also studied for
+        a semester in South-Korea's{" "}
         <a
           href="https://eng.inha.ac.kr/eng/index.do"
-          className="text-blue-500 hover:text-blue-400 hover:cursor-pointer"
+          className={linkClass}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -57,7 +52,28 @@ const Education = () => {
         </a>
         , with a focus on business and software development.
       </p>
-    </>
+
+      <div className="mt-4 rounded-lg border border-gray-800 bg-gray-900 p-4">
+        <p className="text-xs text-accentOrange mb-1">Bachelor's thesis</p>
+        <Link
+          href="/writing/microsoft-ai-tools-thesis"
+          className="font-bold text-white hover:text-accentOrange"
+        >
+          Mapping Microsoft's AI tools: Azure and other AI solutions supporting
+          programming
+        </Link>
+        <p className="text-sm text-graytext mt-1">
+          A survey of how tools like GitHub Copilot, Azure Machine Learning and
+          Azure Databricks can support software development.{" "}
+          <Link
+            href="/writing/microsoft-ai-tools-thesis"
+            className={linkClass}
+          >
+            Read the summary →
+          </Link>
+        </p>
+      </div>
+    </section>
   );
 };
 

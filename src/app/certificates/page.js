@@ -1,5 +1,11 @@
 import React from "react";
 
+export const metadata = {
+  title: "Certificates",
+  description:
+    "Cisco CyberOps Associate, Cisco DevNet Associate and University of Helsinki Cyber Security Base.",
+};
+
 const certificates = [
   {
     title: "Cisco CyberOps Associate",
