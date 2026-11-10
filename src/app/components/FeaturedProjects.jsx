@@ -2,7 +2,7 @@ import Link from "next/link";
 import { projectsPrimary } from "@/data/projects";
 
 const FeaturedProjects = () => {
-  const featured = projectsPrimary.slice(0, 3);
+  const featured = projectsPrimary.slice(0, 4);
 
   return (
     <section>
