@@ -6,7 +6,7 @@ export const experience = [
     url: "https://www.saab.com/",
     role: "Junior Software Engineer",
     start: "May 2026",
-    end: "Present",
+    end: "???",
     summary:
       "Working as a software engineer at Saab Finland. Cant really talk much about this lol",
     highlights: [],
@@ -35,16 +35,31 @@ export const experience = [
       "PostgreSQL",
     ],
   },
+  {
+    company: "Telia Finland Oyj",
+    url: "telia.fi",
+    role: "Technical specialist ",
+    start: "May 2022",
+    end: "September 2022",
+    summary:
+      "Fixing problems and managing configurations mostly related to broadband connections. Collaborated and communicated with technicians and field-workers",
+    highlights: [
+      "Above average number of tickets closed",
+      "Self-taught a lot of relevant stuff on the side",
+    ],
+    tags: [
+      "Ethernet",
+      "Networking",
+      "Cisco",
+      "Huawei",
+      "ISO-model",
+      "Broadband",
+    ],
+  },
 ];
 
 // Shorter earlier roles, shown as a compact list under the main timeline.
 export const earlierRoles = [
-  {
-    role: "Technical specialist (summer job)",
-    company: "Telia",
-    url: "https://www.teliacompany.com/en/category/this-is-telia",
-    note: "Fixing customer problems, mostly related to broadband connections.",
-  },
   {
     role: "Delivery driver",
     company: "014-Kuljetus",
