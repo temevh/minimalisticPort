@@ -7,7 +7,7 @@ export const projectsPrimary = [
     tags: ["Vue", "Supabase", "Express.js", "CI/CD"],
     img: "https://i.ibb.co/ccSJLxdc/devdoomscroll.png",
     code: "https://github.com/temevh/devdoomscroll",
-    demo: "https://google.com",
+    demo: "https://devdoomscroll.vercel.app/",
   },
   {
     title: "HelpNow",
