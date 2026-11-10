@@ -9,6 +9,11 @@ const references = [
     title: "CEO, 014-Kuljetus",
     say: "Teemu has demonstrated excellent abilities to work independently and efficiently in rapidly changing and challenging conditions.",
   },
+  {
+    person: "Juho Pollari",
+    title: "Full-time friend, part-time enemy",
+    say: "A pretty cool dude 👍",
+  },
 ];
 
 const References = () => {
@@ -21,7 +26,7 @@ const References = () => {
         {references.map((ref) => (
           <figure
             key={ref.person}
-            className="rounded-lg border-l-2 border-accentOrange bg-gray-900 p-4"
+            className="rounded-lg border-l-2 border-accentOrange p-4"
           >
             <blockquote className="text-sm lg:text-base text-white">
               “{ref.say}”

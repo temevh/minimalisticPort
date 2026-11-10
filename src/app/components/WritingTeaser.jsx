@@ -20,7 +20,7 @@ const WritingTeaser = () => {
       </div>
       <Link
         href={`/writing/${latest.slug}`}
-        className="group block rounded-lg border border-gray-800 bg-gray-900 p-4 transition-all duration-300 hover:border-accentOrange"
+        className="group block rounded-lg border border-gray-800 p-4 transition-all duration-300 hover:border-accentOrange"
       >
         <p className="text-xs text-accentOrange mb-1">
           {latest.level ?? latest.type}

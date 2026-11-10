@@ -9,7 +9,10 @@
 export const skillLevels = {
   core: { label: "Core", hint: "used day to day" },
   solid: { label: "Solid", hint: "used in real projects" },
-  basic: { label: "Working knowledge", hint: "hands-on basics, still learning" },
+  basic: {
+    label: "Working knowledge",
+    hint: "hands-on basics, still learning",
+  },
 };
 
 export const skillGroups = [
@@ -19,25 +22,28 @@ export const skillGroups = [
     blurb:
       "Where I spend most of my time: fast, accessible and maintainable user interfaces.",
     skills: [
+      { name: "Vue", level: "core" },
       { name: "React", level: "core" },
-      { name: "Vue", level: "core", note: "work + personal projects" },
       { name: "TypeScript", level: "core" },
       { name: "HTML/CSS", level: "core" },
       { name: "Next.js", level: "solid" },
+      { name: "Nuxt", level: "solid" },
       { name: "TailwindCSS", level: "solid" },
       { name: "GraphQL / Apollo", level: "solid" },
+      { name: "MUI / Chakra / shadcn / vuetify", level: "solid" },
       { name: "Redux", level: "solid" },
-      { name: "MUI / Chakra / shadcn", level: "solid" },
     ],
   },
   {
     id: "backend",
     title: "Backend & data",
-    blurb: "APIs and data layers that are simple to reason about and to change.",
+    blurb:
+      "APIs and data layers that are simple to reason about and to change.",
     skills: [
       { name: "Node.js", level: "core" },
       { name: "REST & GraphQL APIs", level: "core" },
-      { name: "PostgreSQL", level: "solid" },
+      { name: "PostgreSQL", level: "core" },
+      { name: "Python", level: "solid" },
       { name: "Prisma", level: "solid" },
       { name: "MongoDB", level: "solid" },
     ],
@@ -48,10 +54,10 @@ export const skillGroups = [
     blurb:
       "I design for maintainability first, and I know enough infrastructure to ship and run what I build.",
     skills: [
-      { name: "Software architecture", level: "solid" },
-      { name: "CI/CD", level: "solid" },
-      { name: "Docker", level: "solid" },
       { name: "Git", level: "core" },
+      { name: "Docker", level: "core" },
+      { name: "Software architecture", level: "core" },
+      { name: "CI/CD", level: "solid" },
       { name: "Terraform", level: "basic" },
       { name: "Ansible", level: "basic" },
       { name: "nginx", level: "basic" },
@@ -64,7 +70,7 @@ export const skillGroups = [
       "Building with LLMs and agents, and using AI-assisted development responsibly. It was also the topic of my bachelor's thesis.",
     skills: [
       { name: "AI-assisted development", level: "core" },
-      { name: "AI agents & tool use", level: "solid" },
+      { name: "AI agents & tool use", level: "core" },
       { name: "LLM integration", level: "solid" },
       { name: "Azure AI / GitHub Copilot", level: "basic" },
     ],
@@ -76,7 +82,7 @@ export const skillGroups = [
     skills: [
       { name: "Google Cloud", level: "solid" },
       { name: "Vercel", level: "solid" },
-      { name: "AWS", level: "basic" },
+      { name: "AWS", level: "solid" },
       { name: "Azure", level: "basic" },
       { name: "Heroku", level: "basic" },
     ],
@@ -86,9 +92,8 @@ export const skillGroups = [
     title: "Mobile",
     blurb: "Shipped mobile apps with React Native and Flutter.",
     skills: [
-      { name: "React Native", level: "core" },
+      { name: "React Native", level: "solid" },
       { name: "Flutter / Dart", level: "solid" },
-      { name: "Kotlin / Java (native modules)", level: "basic" },
     ],
   },
   {
@@ -106,11 +111,10 @@ export const skillGroups = [
     title: "Languages, design & more",
     blurb: "Breadth from university and personal projects.",
     skills: [
-      { name: "Python", level: "solid" },
+      { name: "UI/UX prototyping", level: "solid" },
+      { name: "Figma", level: "solid" },
       { name: "Java", level: "basic" },
       { name: "C / C++", level: "basic" },
-      { name: "Figma", level: "solid" },
-      { name: "UI/UX prototyping", level: "solid" },
       { name: "Accessibility", level: "basic" },
     ],
   },
