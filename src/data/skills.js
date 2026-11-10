@@ -126,24 +126,24 @@ export const peopleSkills = [
     title: "Leadership",
     text: "I step up and take charge when it is needed, even in tense situations.",
     evidence:
-      "Project lead of Valuemap at Junction, vice president of my guild's overalls team, guild board member (übertutor), scout group leader, member of Jyväskylä's youth council.",
+      "Leader in multiple school projects. Managing 50+ tutors (including international). Leading ad-hoc meetings at work if needed",
   },
   {
     title: "Team player",
     text: "Comfortable in large multi-team projects and just as happy working independently.",
     evidence:
-      "Three years of consulting at Twoday, on projects from large multi-team deliveries to small solo ones.",
+      "Multiple different roles on projects from large multi-team deliveries to small solo ones. Experienced in working with a variety of different people",
   },
   {
     title: "Communication",
-    text: "I like bridging the gap between technical and non-technical people.",
+    text: "I talk well with computers but also with humans",
     evidence:
-      "Client-facing consulting work, plus references from Telia and 014-Kuljetus (see the home page).",
+      "Client-facing consulting work. Helping people with IT related problems. Simplifying and explaining difficult IT concepts.",
   },
   {
     title: "Initiative",
     text: "I start things and finish them, and I adapt quickly to new situations.",
     evidence:
-      "Started my first business at 11, won a hackathon in high school and have joined several more.",
+      "Building projects from start to end, no matter if its in IT or some other area",
   },
 ];

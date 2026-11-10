@@ -26,7 +26,7 @@ const WritingPage = () => {
           <Link
             key={post.slug}
             href={`/writing/${post.slug}`}
-            className="group block rounded-lg border border-gray-800 bg-gray-900 p-4 lg:p-6 transition-all duration-300 hover:border-accentOrange hover:shadow-lg hover:shadow-accentOrange/10"
+            className="group block rounded-lg border border-gray-800  p-4 lg:p-6 transition-all duration-300 hover:border-accentOrange hover:shadow-lg hover:shadow-accentOrange/10"
           >
             <div className="flex flex-wrap items-center gap-2 text-xs text-graytext mb-2">
               <span className="rounded-full border border-accentOrange px-2 py-0.5 text-accentOrange">

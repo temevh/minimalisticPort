@@ -40,7 +40,9 @@ const Community = () => {
         >
           win one
         </a>{" "}
-        in high school.
+        in high school. I also actively seek out meet-ups, keynotes and other
+        changes where I can learn from other people (such as Tammerserc,
+        TampereJS and job-fares just to name a few).
       </p>
     </section>
   );
