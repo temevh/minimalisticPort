@@ -53,7 +53,7 @@ const Education = () => {
         , with a focus on business and software development.
       </p>
 
-      <div className="mt-4 rounded-lg border border-gray-800 bg-gray-900 p-4">
+      <div className="mt-4 rounded-lg border border-gray-800 p-4">
         <p className="text-xs text-accentOrange mb-1">Bachelor's thesis</p>
         <Link
           href="/writing/microsoft-ai-tools-thesis"
@@ -65,10 +65,7 @@ const Education = () => {
         <p className="text-sm text-graytext mt-1">
           A survey of how tools like GitHub Copilot, Azure Machine Learning and
           Azure Databricks can support software development.{" "}
-          <Link
-            href="/writing/microsoft-ai-tools-thesis"
-            className={linkClass}
-          >
+          <Link href="/writing/microsoft-ai-tools-thesis" className={linkClass}>
             Read the summary →
           </Link>
         </p>

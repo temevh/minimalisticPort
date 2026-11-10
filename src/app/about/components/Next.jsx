@@ -14,7 +14,7 @@ const Next = () => {
           how to work with me
         </a>
         . It includes some of my strengths, weaknesses, principles and other
-        neat stuff!.
+        neat stuff!
       </p>
       <a
         href="/manual"

@@ -5,7 +5,6 @@ const RoleTypewriter = () => {
   const [text] = useTypewriter({
     words: [
       "Full-stack developer.",
-      "Vue, React & TypeScript.",
       "Cloud & AI builder.",
       "Team player & natural leader.",
       "Seasoned entrepreneur.",

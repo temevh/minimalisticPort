@@ -4,7 +4,7 @@ const Accent = ({ children }) => (
 
 const facts = [
   { big: "5+ years", small: "professional experience" },
-  { big: "Full-stack", small: "React · Vue · TypeScript · Node.js" },
+  { big: "Full-stack", small: "TypeScript, Node.js, PostgreSQL, CI/CD" },
   { big: "Any team size", small: "multi-team projects to solo" },
 ];
 
@@ -23,15 +23,17 @@ const Summary = () => {
       <h2 className="font-bold text-lg lg:text-2xl text-white mb-1">Summary</h2>
       <p className="text-graytext text-md lg:text-lg">
         I'm a <Accent>full-stack developer</Accent> with{" "}
-        <Accent>3+ years of professional experience</Accent> building web and
+        <Accent>5+ years of professional experience</Accent> building web and
         mobile applications, first as a consultant at Twoday and now as a junior
-        software engineer at Saab Finland. I work mostly with{" "}
-        <Accent>React, Vue and TypeScript</Accent> on the front and{" "}
-        <Accent>Node.js and GraphQL</Accent> on the back, and I care about{" "}
-        <Accent>architecture</Accent> and the <Accent>CI/CD and cloud</Accent>{" "}
-        that gets it to production. I also build with{" "}
-        <Accent>AI and agents</Accent>, and wrote my bachelor's thesis on AI in
-        software development.
+        software engineer at Saab Finland. I work currently mostly with{" "}
+        <Accent>Modern web technologies</Accent> such as{" "}
+        <Accent>Vue, PostgreSQL, Nest.js</Accent> and{" "}
+        <Accent> Express.js</Accent>.Currently I am also putting more focus into{" "}
+        <Accent>architecture</Accent>, <Accent>CI/CD</Accent>,{" "}
+        <Accent>architecture</Accent> and <Accent>cloud </Accent> that gets it
+        to production. I also build with <Accent>AI</Accent> and{" "}
+        <Accent> agents</Accent>, and wrote my bachelor's{" "}
+        <Accent>thesis on AI in software development.</Accent>
       </p>
       <p className="text-graytext text-md lg:text-lg mt-3">
         I'm happiest in a team: I'm comfortable <Accent>taking the lead</Accent>{" "}
