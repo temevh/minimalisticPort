@@ -24,10 +24,7 @@ const References = () => {
       </h2>
       <div className="grid grid-cols-1 gap-3">
         {references.map((ref) => (
-          <figure
-            key={ref.person}
-            className="rounded-lg border-l-2 border-accentOrange p-4"
-          >
+          <figure key={ref.person} className="p-4">
             <blockquote className="text-sm lg:text-base text-white">
               “{ref.say}”
             </blockquote>
