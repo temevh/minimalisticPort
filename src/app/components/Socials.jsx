@@ -1,6 +1,9 @@
 const Socials = () => {
   return (
-    <div className="flex flex-row lg:pt-4 items-center" id="socialsdiv">
+    <div
+      className="flex flex-row flex-wrap lg:pt-4 items-center"
+      id="socialsdiv"
+    >
       <a
         href="https://github.com/temevh/"
         target="_blank"

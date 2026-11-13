@@ -9,7 +9,7 @@ const Hero = () => {
     <section>
       <div className="flex flex-row gap-2 lg:gap-10 items-center mb-4">
         <Picture />
-        <div className="ml-4 lg:ml-0">
+        <div className="ml-4 lg:ml-0 min-w-0">
           <h1 className="text-md lg:text-3xl font-bold text-white">
             Hey, I'm Teemu
           </h1>
