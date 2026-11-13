@@ -1,0 +1,133 @@
+{
+  "_readme": "Keys must match a skill `name` in skills.js exactly. Each skill: { text (optional, a few sentences about the skill), projects (optional list of { title, description, link? }) }.",
+  "Vue": {
+    "text": "",
+    "projects": [
+      {
+        "title": "Devdoomscroll",
+        "description": "Post aggregator for developers that collects posts on selected interests across platforms.",
+        "link": "https://github.com/temevh/devdoomscroll"
+      },
+      {
+        "title": "Tuuraaja",
+        "description": "Full-stack app that helps schools find and contact substitute teachers on short notice.",
+        "link": "https://github.com/temevh/tuuraaja-vue"
+      }
+    ]
+  },
+  "React": {
+    "text": "",
+    "projects": [
+      {
+        "title": "HelpNow",
+        "description": "Platform connecting volunteers with people who need assistance.",
+        "link": "https://github.com/temevh/helpnow"
+      },
+      {
+        "title": "Kursari",
+        "description": "Platform for anonymously reviewing and rating university courses.",
+        "link": "https://github.com/temevh/some"
+      },
+      {
+        "title": "Valuemap",
+        "description": "Matches job seekers with companies based on shared values. Junction hackathon 2024.",
+        "link": "https://github.com/temevh/valuework"
+      }
+    ]
+  },
+  "Next.js": {
+    "text": "",
+    "projects": [
+      {
+        "title": "HelpNow",
+        "description": "Platform connecting volunteers with people who need assistance.",
+        "link": "https://github.com/temevh/helpnow"
+      },
+      {
+        "title": "Kursari",
+        "description": "Platform for anonymously reviewing and rating university courses.",
+        "link": "https://github.com/temevh/some"
+      }
+    ]
+  },
+  "Nuxt": {
+    "text": "",
+    "projects": [
+      {
+        "title": "Tuuraaja",
+        "description": "Full-stack app that helps schools find and contact substitute teachers on short notice.",
+        "link": "https://github.com/temevh/tuuraaja-vue"
+      }
+    ]
+  },
+  "Express.js": {
+    "text": "",
+    "projects": [
+      {
+        "title": "Devdoomscroll",
+        "description": "Backend for the developer post aggregator.",
+        "link": "https://github.com/temevh/devdoomscroll"
+      }
+    ]
+  },
+  "PostgreSQL": {
+    "text": "",
+    "projects": [
+      {
+        "title": "HelpNow",
+        "description": "Relational data layer for volunteers and help requests.",
+        "link": "https://github.com/temevh/helpnow"
+      }
+    ]
+  },
+  "Prisma": {
+    "text": "",
+    "projects": [
+      {
+        "title": "HelpNow",
+        "description": "ORM on top of PostgreSQL.",
+        "link": "https://github.com/temevh/helpnow"
+      }
+    ]
+  },
+  "MongoDB": {
+    "text": "",
+    "projects": [
+      {
+        "title": "Valuemap",
+        "description": "Document storage for job seekers and company profiles.",
+        "link": "https://github.com/temevh/valuework"
+      }
+    ]
+  },
+  "React Native": {
+    "text": "",
+    "projects": [
+      {
+        "title": "MyGraine",
+        "description": "Personalized migraine prevention, detection and treatment app.",
+        "link": "https://github.com/temevh/AavaPfizer/tree/release"
+      }
+    ]
+  },
+  "Flutter / Dart": {
+    "text": "",
+    "projects": [
+      {
+        "title": "Betterbrain",
+        "description": "Gives a personalized daily task based on the areas of life you want to improve.",
+        "link": "https://github.com/temevh/betterbrain"
+      }
+    ]
+  },
+  "C / C++": {
+    "text": "",
+    "projects": [
+      {
+        "title": "Arduino alarm system",
+        "description": "Alarm system built on two Arduino boards communicating over USART.",
+        "link": "https://github.com/temevh/Arduino-AlarmSystem/tree/main"
+      }
+    ]
+  }
+}

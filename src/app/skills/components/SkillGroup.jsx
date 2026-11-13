@@ -1,3 +1,5 @@
+import { SkillList } from "./SkillList";
+
 const tierStyles = {
   core: "border-accentOrange text-white",
   solid: "border-gray-500 text-white",
@@ -8,17 +10,7 @@ export const SkillGroup = ({ group }) => (
   <section id={group.id} className="scroll-mt-6">
     <h2 className="text-lg lg:text-xl font-bold text-white">{group.title}</h2>
     <p className="text-xs lg:text-sm text-graytext mt-1 mb-3">{group.blurb}</p>
-    <ul className="flex flex-wrap gap-2">
-      {group.skills.map((skill) => (
-        <li
-          key={skill.name}
-          className={`rounded-md border px-2 py-1 text-xs lg:text-sm ${tierStyles[skill.level]}`}
-        >
-          {skill.name}
-          {skill.note && <span className="text-graytext"> · {skill.note}</span>}
-        </li>
-      ))}
-    </ul>
+    <SkillList skills={group.skills} />
   </section>
 );
 

@@ -16,7 +16,8 @@ const SkillsPage = () => {
       <div>
         <h1 className="lg:text-3xl text-xl font-bold">What I know 🧙</h1>
         <p className="lg:text-sm text-xs text-graytext italic mt-2 mb-3">
-          Grouped by area, with how much I use each skill.
+          Grouped by area, with how much I use each skill. Click a skill to
+          see where I have used it.
         </p>
         <TierLegend levels={skillLevels} />
       </div>
